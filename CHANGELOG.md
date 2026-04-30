@@ -19,7 +19,7 @@ Interactive Jeopardy game with real-time team buzzers for Cisco Live session [IB
 
 ### 🔒 Private Answer Key
 - **Separate Display**: `answer-key.html` for your private laptop
-- **Password Protected**: `REDACTED`
+- **Password Protected**: *(set in answer-key.html)*
 - **Real-Time Sync**: Shows answer when you click question
 - **Large Text**: Easy-to-read answer display
 
@@ -61,7 +61,7 @@ http://localhost:8000/autocor_jeopardy.html
 **Answer Key (your private laptop):**
 ```
 http://localhost:8000/answer-key.html
-Password: REDACTED
+Password: (see CORRECT_PASSWORD in answer-key.html)
 ```
 
 **Team Buzzer URLs (convert to QR codes):**
