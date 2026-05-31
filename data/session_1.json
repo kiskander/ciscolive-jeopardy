@@ -1,53 +1,48 @@
-{
-  "finalJeopardy": {
-    "q": "FINAL JEOPARDY: This protocol enables AI models to interact with external tools and data sources through a standardized interface.",
-    "a": "What is MCP (Model Context Protocol)?"
-  },
-  "categories": [
+[
   {
-    "name": "Network Automation",
+    "name": "CCNA Fundamentals",
     "questions": [
 
   {
-    "q": "This fundamental property of both Ansible and Terraform ensures that re-running a configuration script against a device already in the desired state results in no changes, preventing configuration drift.",
-    "a": "What is Idempotency?"
+    "q": "This device connects multiple devices within a local network using MAC addresses.",
+    "a": "What is a switch?"
   },
-  {  "q": "In a RESTCONF (RFC 8040) implementation, which HTTP header must be set to 'application/yang-data+json' to ensure the payload is correctly mapped to the underlying YANG model?",
-    "a": "What is the Content-Type header?"
+  {  "q": "This OSI layer is responsible for logical addressing and routing.",
+    "a": "What is the Network layer?"
   },    
-  { "q": "This Terraform command applies changes to reach the desired state, effectively 'pushing' config.", 
-    "a": "What is terraform apply?" 
+  { "q": "This protocol translates IP addresses to MAC addresses.", 
+    "a": "What is ARP?" 
   },  
-  { "q": "This Ansible module ensures a specific configuration line exists in a Cisco IOS XE device's running config.",
-    "a": "What is ios_config?" 
+  { "q": "This command displays the IP routing table on a Cisco router.",
+    "a": "What is show ip route?" 
   },
-  { "q": "An enterprise requires a solution where network devices independently pull their configuration from a central Git repository and apply it locally. This specific automation model is chosen to ensure continuous compliance and high scalability without a central push-based controller.",
-    "a": "What is a Pull-based (or GitOps) model?"
+  { "q": "This routing protocol uses cost as its metric and is commonly used in enterprise networks.",
+    "a": "What is OSPF?"
   }
     ]
   },
   {
-    "name": "Infrastructure as Code",
+    "name": "General Networking",
     "questions": [
   {
-    "q": "This Git command is used to switch between different branches in a repository, allowing an engineer to move from a 'development' branch to a 'production' branch to review code.",
-    "a": "What is git checkout?"
+    "q": "This cable type is commonly used for Ethernet LAN connections.",
+    "a": "What is twisted pair?"
   },
   {
-    "q": "In a Docker Compose file, this specific parameter is used to map a local directory on the host machine to a directory inside the container, ensuring that configuration data or 'Source of Truth' files remain persistent even if the container is restarted.",
-    "a": "What is a volume?"
+    "q": "This number identifies a specific device on a network.",
+    "a": "What is an IP address?"
   },
   {
-    "q": "In a GitLab CI/CD pipeline, this specific stage is responsible for preparing the environment, such as installing necessary Python libraries or pulling Docker images, before any tests or deployments are executed.",
-    "a": "What is the build stage?"
+    "q": "This device forwards traffic between different networks.",
+    "a": "What is a router?"
   },
   {
-    "q": "A critical bug fix for a production ACL was accidentally committed to a 'testing' branch that contains many other unfinished features. To move only that specific fix into the 'main' branch without merging the rest of the testing code, you would use this command.",
-    "a": "What is git cherry-pick?"
+    "q": "This term describes the maximum data transfer rate of a network link.",
+    "a": "What is bandwidth?"
   },
   {
-    "q": "A GitLab CI/CD pipeline fails with an 'Incompatible Version' error for a library like 'Netmiko.' The engineer finds that two different stages are pulling different base Docker images, leading to a conflict in the execution environment. This specific Docker-related strategyis best practice to resolve this .",
-    "a": "What is a Custom Docker Image (or a 'Single Source of Image')?"
+    "q": "This mechanism prevents loops in switched networks.",
+    "a": "What is Spanning Tree Protocol?"
   }
     ]
   },
@@ -101,4 +96,3 @@
 ]
   }
 ]
-}
