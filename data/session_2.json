@@ -1,101 +1,101 @@
 [
   {
-    "name": "Cisco Cybersecurity",
+    "name": "Network Automation",
     "questions": [
       {
-        "q": "This device monitors and filters incoming and outgoing network traffic.",
-        "a": "What is a firewall?"
+        "q": "This data modeling language is used to define the structure of data sent over NETCONF or RESTCONF.\nA. What is YANG?\nB. What is XML?\nC. What is JSON Schema?\nD. What is YAML?",
+        "a": "What is YANG?"
       },
       {
-        "q": "This type of attack attempts to guess passwords repeatedly.",
-        "a": "What is a brute-force attack?"
+        "q": "When using RESTCONF (RFC 8040) to modify a specific OSPF area ID within a YANG-modeled configuration, this HTTP method is used to merge the change into the existing data store without replacing the entire OSPF container.\nA. What is GET?\nB. What is PATCH?\nC. What is POST?\nD. What is PUT?",
+        "a": "What is PATCH?"
       },
       {
-        "q": "This term describes malicious software.",
-        "a": "What is malware?"
+        "q": "To prevent a Python automation script from hanging indefinitely when a network controller is unresponsive, this specific parameter should be included in every 'requests' library call to define a maximum wait time for a server response.\nA. What is verify?\nB. What is stream?\nC. What is auth?\nD. What is timeout?",
+        "a": "What is timeout?"
       },
       {
-        "q": "This security model assumes threats exist both inside and outside the network.",
-        "a": "What is Zero Trust?"
+        "q": "This Ansible command-line flag, often used alongside check mode, provides a side-by-side comparison of the current device configuration versus the proposed changes before they are committed to the network device.\nA. What is --verbose?\nB. What is --diff?\nC. What is --check?\nD. What is --extra-vars?",
+        "a": "What is --diff?"
       },
       {
-        "q": "This Cisco security platform integrates multiple security tools into one dashboard.",
-        "a": "What is Cisco SecureX?"
+        "q": "A network team uses a visual orchestration tool to automate site deployments. While 90% of the tasks are drag-and-drop, they must write a custom script to parse a non-standard JSON file from a legacy inventory system. This specific hybrid approach is defined as...\nA. What is Full-Code automation?\nB. What is No-Code automation?\nC. What is Low-Code automation?\nD. What is Manual automation?",
+        "a": "What is Low-Code automation?"
       }
     ]
   },
   {
-    "name": "CCNA Automation",
+    "name": "Infrastructure as Code",
     "questions": [
       {
-        "q": "This data format is commonly used in APIs and automation.",
-        "a": "What is JSON?"
+        "q": "An engineer needs to undo a commit that has already been pushed to a shared remote repository. To avoid rewriting history and causing issues for other team members, they use this command to create a new 'inverse' commit.\nA. What is git reset?\nB. What is git rebase?\nC. What is git revert?\nD. What is git checkout?",
+        "a": "What is git revert?"
       },
       {
-        "q": "This protocol is commonly used to interact with REST APIs.",
-        "a": "What is HTTP?"
+        "q": "A business requirement states that the automation system must never 'guess' the status of the network; it must only push configurations that match a central database. In this architecture, the database is serving as the...\nA. What is the Certificate Authority?\nB. What is the Source of Truth (SoT)?\nC. What is the gatekeeper?\nD. What is the network proxy?",
+        "a": "What is the Source of Truth (SoT)?"
       },
       {
-        "q": "This Python library is commonly used to send HTTP requests.",
-        "a": "What is Requests?"
+        "q": "To move the HEAD of a local repository back to a previous commit and completely discard all uncommitted changes in the working directory, an engineer would use this command with a specific flag.\nA. What is git reset --soft?\nB. What is git reset --mixed?\nC. What is git reset --hard?\nD. What is git reset --patch?",
+        "a": "What is git reset --hard?"
       },
       {
-        "q": "This Cisco feature allows devices to be managed programmatically.",
-        "a": "What is an API?"
+        "q": "In a GitLab CI/CD pipeline, this specific stage is responsible for running operational state checks (e.g., 'show ip ospf neighbor') to confirm that the network reached the desired state after the configuration was applied.\nA. What is the post-validation stage?\nB. What is the build stage?\nC. What is the test stage?\nD. What is the deploy stage?",
+        "a": "What is the post-validation stage?"
       },
       {
-        "q": "This model-driven protocol is commonly used for network automation.",
+        "q": "A YANG 'container' named 'system' contains a 'leaf' named 'hostname'. When representing this in YAML for an automation tool, the 'hostname' would be indented under 'system' and separated from its value by this character.\nA. What is an equals sign (=)?\nB. What is a greater-than sign (>)?\nC. What is a colon (: )?\nD. What is a semicolon (;)?",
+        "a": "What is a colon (: )?"
+      }
+    ]
+  },
+  {
+    "name": "Operations",
+    "questions": [
+      {
+        "q": "In a Python automation script, this specific class from the 'logging.handlers' module is used to direct log messages to a remote server using the standard UNIX logging protocol, typically over UDP port 514.\nA. What is FileHandler?\nB. What is StreamHandler?\nC. What is SysLogHandler?\nD. What is SMTPHandler?",
+        "a": "What is SysLogHandler?"
+      },
+      {
+        "q": "In a Model-Driven Telemetry 'Dial-In' session, where the collector initiates the connection and the network device acts as the server, this XML-based protocol is used to establish and manage the subscription.\nA. What is RESTCONF?\nB. What is NETCONF?\nC. What is gRPC?\nD. What is SNMP?",
         "a": "What is NETCONF?"
+      },
+      {
+        "q": "To prevent a Python script from attempting to configure an invalid network segment, an engineer implements this specific logic to ensure that a user-provided VLAN ID is an integer strictly within the range of 1 to 4094.\nA. What is Data Serialization?\nB. What is Input Validation?\nC. What is Error Handling?\nD. What is Type Conversion?",
+        "a": "What is Input Validation?"
+      },
+      {
+        "q": "After a configuration change, an engineer has two snapshots of the network state. To programmatically identify exactly which OSPF neighbors were lost or which routes were modified, they would execute this specific pyATS CLI tool.\nA. What is pyats learn?\nB. What is pyats diff?\nC. What is pyats run?\nD. What is pyats parse?",
+        "a": "What is pyats diff?"
+      },
+      {
+        "q": "To ensure 'Non-Repudiation' and security in a network automation solution, an engineer configures the system to use these specific digital credentials, which are signed by a trusted third party to verify the identity of the automation server.\nA. What are Self-signed certificates?\nB. What are SSH keys?\nC. What are API tokens?\nD. What are CA-Signed Certificates?",
+        "a": "What are CA-Signed Certificates?"
       }
     ]
   },
   {
-    "name": "Cisco Learning Network VIP Members",
+    "name": "AI in Automation",
     "questions": [
       {
-        "q": "This program recognizes active contributors in the Cisco Learning Network community.",
-        "a": "What is the VIP program?"
+        "q": "When an AI agent provides a response that is grammatically correct and technically plausible but contains non-existent CLI commands or incorrect logic, the recommendation is suffering from this specific phenomenon.\nA. What is Data Bias?\nB. What is Model Drift?\nC. What is a Hallucination?\nD. What is Overfitting?",
+        "a": "What is a Hallucination?"
       },
       {
-        "q": "VIP members often help answer these types of community posts.",
-        "a": "What are technical questions?"
+        "q": "This open standard allows AI models to safely execute local Python code for network analysis.\nA. What is RESTCONF?\nB. What is NETCONF?\nC. What is gRPC?\nD. What is Model Context Protocol (MCP)?",
+        "a": "What is Model Context Protocol (MCP)?"
       },
       {
-        "q": "This badge level typically indicates consistent engagement.",
-        "a": "What is Contributor?"
+        "q": "To objectively measure the accuracy of an AI's troubleshooting advice, an engineer compares the AI's output against a verified dataset of known issues and their verified solutions, which is referred to as this.\nA. What is the Training Data?\nB. What is the Ground Truth?\nC. What is the Validation Set?\nD. What is the Prompt Context?",
+        "a": "What is the Ground Truth?"
       },
       {
-        "q": "This activity helps members gain recognition in the community.",
-        "a": "What is posting helpful solutions?"
+        "q": "Before trusting an AI-generated configuration change, a professional automation workflow uses this specific 'Operations' tool to simulate the change in a virtual environment and verify that the resulting network state matches the intended outcome.\nA. What is a Production Network?\nB. What is Cisco Modeling Labs (CML) or pyATS?\nC. What is a Staging Network?\nD. What is a Sandbox?",
+        "a": "What is Cisco Modeling Labs (CML) or pyATS?"
       },
       {
-        "q": "This award is given to members of the community who often mentors new learners and shares best practices.",
-        "a": "What is a community ambassador?"
-      }
-    ]
-  },
-  {
-    "name": "Routing",
-    "questions": [
-      {
-        "q": "This routing method requires manual configuration of routes.",
-        "a": "What is static routing?"
-      },
-      {
-        "q": "This routing protocol uses hop count as a metric.",
-        "a": "What is RIP?"
-      },
-      {
-        "q": "This protocol is link-state based.",
-        "a": "What is OSPF?"
-      },
-      {
-        "q": "This protocol is commonly used between autonomous systems on the internet.",
-        "a": "What is BGP?"
-      },
-      {
-        "q": "This type of routing table entry is learned automatically from routing protocols.",
-        "a": "What is a dynamic route?"
+        "q": "This specific MCP server component acts as the 'bridge' to a specific Cisco API.\nA. What is a Prompt?\nB. What is a Tool (or Resource)?\nC. What is a Session?\nD. What is an Elicitation?",
+        "a": "What is a Tool (or Resource)?"
       }
     ]
   }
