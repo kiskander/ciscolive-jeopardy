@@ -1,98 +1,111 @@
 [
   {
-    "name": "CCNA Fundamentals",
+    "name": "Network Automation",
     "questions": [
-
-  {
-    "q": "This device connects multiple devices within a local network using MAC addresses.",
-    "a": "What is a switch?"
-  },
-  {  "q": "This OSI layer is responsible for logical addressing and routing.",
-    "a": "What is the Network layer?"
-  },    
-  { "q": "This protocol translates IP addresses to MAC addresses.", 
-    "a": "What is ARP?" 
-  },  
-  { "q": "This command displays the IP routing table on a Cisco router.",
-    "a": "What is show ip route?" 
-  },
-  { "q": "This routing protocol uses cost as its metric and is commonly used in enterprise networks.",
-    "a": "What is OSPF?"
-  }
+      {
+        "q": "This fundamental property of both Ansible and Terraform ensures that re-running a configuration script against a device already in the desired state results in no changes, preventing configuration drift.\nA. What is Scalability?\nB. What is Determinism?\nC. What is Latency?\nD. What is Idempotency?",
+        "a": "What is Idempotency?"
+      },
+      {
+        "q": "In a RESTCONF (RFC 8040) implementation, which HTTP header must be set to 'application/yang-data+json' to ensure the payload is correctly mapped to the underlying YANG model?\nA. What is the Accept header?\nB. What is the Authorization header?\nC. What is the User-Agent header?\nD. What is the Content-Type header?",
+        "a": "What is the Content-Type header?"
+      },
+      {
+        "q": "This Terraform command applies changes to reach the desired state, effectively 'pushing' config.\nA. What is terraform init?\nB. What is terraform plan?\nC. What is terraform apply?\nD. What is terraform destroy?",
+        "a": "What is terraform apply?"
+      },
+      {
+        "q": "This Ansible module ensures a specific configuration line exists in a Cisco IOS XE device's running config.\nA. What is ios_facts?\nB. What is ios_ping?\nC. What is ios_config?\nD. What is ios_command?",
+        "a": "What is ios_config?"
+      },
+      {
+        "q": "An enterprise requires a solution where network devices independently pull their configuration from a central Git repository and apply it locally. This specific automation model is chosen to ensure continuous compliance and high scalability without a central push-based controller.\nA. What is a Push-based model?\nB. What is a Polling-based model?\nC. What is a Pull-based (or GitOps) model?\nD. What is a Streaming-based model?",
+        "a": "What is a Pull-based (or GitOps) model?"
+      }
     ]
   },
   {
-    "name": "General Networking",
+    "name": "Infrastructure as Code",
     "questions": [
-  {
-    "q": "This cable type is commonly used for Ethernet LAN connections.",
-    "a": "What is twisted pair?"
-  },
-  {
-    "q": "This number identifies a specific device on a network.",
-    "a": "What is an IP address?"
-  },
-  {
-    "q": "This device forwards traffic between different networks.",
-    "a": "What is a router?"
-  },
-  {
-    "q": "This term describes the maximum data transfer rate of a network link.",
-    "a": "What is bandwidth?"
-  },
-  {
-    "q": "This mechanism prevents loops in switched networks.",
-    "a": "What is Spanning Tree Protocol?"
-  }
+      {
+        "q": "This Git command is used to switch between different branches in a repository, allowing an engineer to move from a 'development' branch to a 'production' branch to review code.\nA. What is git commit?\nB. What is git checkout?\nC. What is git merge?\nD. What is git push?",
+        "a": "What is git checkout?"
+      },
+      {
+        "q": "In a Docker Compose file, this specific parameter is used to map a local directory on the host machine to a directory inside the container, ensuring that configuration data or 'Source of Truth' files remain persistent even if the container is restarted.\nA. What is an environment variable?\nB. What is a network?\nC. What is a volume?\nD. What is a build context?",
+        "a": "What is a volume?"
+      },
+      {
+        "q": "In a GitLab CI/CD pipeline, this specific stage is responsible for preparing the environment, such as installing necessary Python libraries or pulling Docker images, before any tests or deployments are executed.\nA. What is the build stage?\nB. What is the test stage?\nC. What is the deploy stage?\nD. What is the cleanup stage?",
+        "a": "What is the build stage?"
+      },
+      {
+        "q": "A critical bug fix for a production ACL was accidentally committed to a 'testing' branch that contains many other unfinished features. To move only that specific fix into the 'main' branch without merging the rest of the testing code, you would use this command.\nA. What is git rebase?\nB. What is git cherry-pick?\nC. What is git stash?\nD. What is git branch?",
+        "a": "What is git cherry-pick?"
+      },
+      {
+        "q": "To ensure that all stages in a CI/CD pipeline use the exact same software environment and library versions, which approach is considered best practice?\nA. What is a Multi-stage build?\nB. What is a Docker volume mount?\nC. What is a Custom Docker Image (or a 'Single Source of Image')?\nD. What is an Environment Variable?",
+        "a": "What is a Custom Docker Image (or a 'Single Source of Image')?"
+      }
     ]
   },
   {
     "name": "Operations",
     "questions": [
-  {
-    "q": "An automation team needs to send real-time, human-readable notifications to a Cisco Webex or Slack channel whenever a critical deployment fails. Which specific logging destination method is most appropriate for this requirement?",
-    "a": "What is a Webhook?"
-  },
-  {
-    "q": "In Model-Driven Telemetry, this specific protocol is commonly used as the transport layer for 'Dial-Out' telemetry because it supports HTTP/2, bidirectional streaming, and efficient binary encoding.",
-    "a": "What is gRPC?"
-  },      
-  {
-    "q": "To prevent 'Credential Leakage' in a public Git repository, an engineer uses this specific secure coding practice to ensure that API keys and passwords are never hardcoded in the script, but are instead retrieved from the local environment at runtime.",
-    "a": "What are Environment Variables (Secret Management)?"
-  },      
-  {
-    "q": "In a pyATS-driven change validation workflow, an engineer uses this specific CLI command to capture the 'Operational State' of a network feature, such as the interface status, into a structured JSON file for later comparison.",
-    "a": "What is pyats learn?"
-  },      
-  {
-    "q": "To secure a network controller's API, an engineer must generate this specific file, which contains the organization's public key and identity information, to be sent to a Certificate Authority (CA) for signing.",
-    "a": "What is a Certificate Signing Request (CSR)?"
-  }
+      {
+        "q": "An automation team needs to send real-time, human-readable notifications to a Cisco Webex or Slack channel whenever a critical deployment fails. Which specific logging destination method is most appropriate for this requirement?\nA. What is a Syslog server?\nB. What is an SNMP trap?\nC. What is an Email alert?\nD. What is a Webhook?",
+        "a": "What is a Webhook?"
+      },
+      {
+        "q": "In Model-Driven Telemetry, this specific protocol is commonly used as the transport layer for 'Dial-Out' telemetry because it supports HTTP/2, bidirectional streaming, and efficient binary encoding.\nA. What is NETCONF?\nB. What is RESTCONF?\nC. What is gRPC?\nD. What is SNMP?",
+        "a": "What is gRPC?"
+      },
+      {
+        "q": "To prevent 'Credential Leakage' in a public Git repository, an engineer uses this specific secure coding practice to ensure that API keys and passwords are never hardcoded in the script, but are instead retrieved dynamically at runtime.\nA. What is hardcoding?\nB. What is base64 encoding?\nC. What is plaintext storage?\nD. What are Environment Variables (Secret Management)?",
+        "a": "What are Environment Variables (Secret Management)?"
+      },
+      {
+        "q": "In a pyATS-driven change validation workflow, an engineer uses this specific CLI command to capture the 'Operational State' of a network feature, such as the interface status, into a structured JSON file for later comparison.\nA. What is pyats run?\nB. What is pyats validate?\nC. What is pyats parse?\nD. What is pyats learn?",
+        "a": "What is pyats learn?"
+      },
+      {
+        "q": "To secure a network controller's API, an engineer must generate this specific file, which contains the organization's public key and identity information, to be sent to a Certificate Authority (CA) for signing.\nA. What is a Public Key?\nB. What is a Private Key?\nC. What is a Certificate Signing Request (CSR)?\nD. What is a Root Certificate?",
+        "a": "What is a Certificate Signing Request (CSR)?"
+      }
     ]
   },
   {
     "name": "AI in Automation",
     "questions": [
-  {
-    "q": "To provide a conversational agent with real-time OSPF neighbor counts without exposing the entire database, an engineer builds this specific server type, which acts as a standardized interface between the LLM and the network API.",
-    "a": "What is an MCP (Model Context Protocol) Server?"
+      {
+        "q": "To provide a conversational agent with real-time OSPF neighbor counts without exposing the entire database, an engineer builds this specific server type, which acts as a standardized interface between the LLM and the network API.\nA. What is a REST API server?\nB. What is a gRPC server?\nC. What is an MCP (Model Context Protocol) Server?\nD. What is a Webhook server?",
+        "a": "What is an MCP (Model Context Protocol) Server?"
+      },
+      {
+        "q": "This specific architectural pattern is used to 'ground' a conversational agent's responses in real-world network data by fetching relevant logs or configs before the LLM generates an answer, preventing hallucinations.\nA. What is Fine-tuning?\nB. What is Prompt Engineering?\nC. What is Reinforcement Learning?\nD. What is RAG (Retrieval-Augmented Generation)?",
+        "a": "What is RAG (Retrieval-Augmented Generation)?"
+      },
+      {
+        "q": "In an MCP architecture, this specific component is the 'host' application (like a CLI tool or a web app) that actually initiates the connection to the MCP server to provide context to the LLM.\nA. What is the MCP Server?\nB. What is the MCP Resource?\nC. What is the MCP Tool?\nD. What is the MCP Client?",
+        "a": "What is the MCP Client?"
+      },
+      {
+        "q": "During a security audit of an AI-driven SOC, it is discovered that the model can be tricked into ignoring malicious traffic by appending specific ignore strings to log entries. This is an example of this specific vulnerability.\nA. What is Prompt Injection (Adversarial Attack)?\nB. What is Model Poisoning?\nC. What is Data Leakage?\nD. What is Denial of Service?",
+        "a": "What is Prompt Injection (Adversarial Attack)?"
+      },
+      {
+        "q": "In a Python FastMCP implementation, this specific decorator is used to define a function that an AI agent can call to retrieve live interface statistics from a Cisco Catalyst switch.\nA. What is @mcp.resource()?\nB. What is @mcp.server()?\nC. What is @mcp.prompt()?\nD. What is @mcp.tool()?",
+        "a": "What is @mcp.tool()?"
+      }
+    ]
   },
   {
-    "q": "This specific architectural pattern is used to 'ground' a conversational agent's responses in real-world network data by fetching relevant logs or configs before the LLM generates an answer, preventing hallucinations.",
-    "a": "What is RAG (Retrieval-Augmented Generation)?"
-  },      
-  {
-    "q": "In an MCP architecture, this specific component is the 'host' application (like a CLI tool or a web app) that actually initiates the connection to the MCP server to provide context to the LLM.",
-    "a": "What is the MCP Client?"
-  },     
-  { "q": "During a security audit of an AI-driven SOC, it is discovered that the model can be tricked into ignoring malicious traffic by appending specific ignore strings to log entries. This is an example of this specific vulnerability.", 
-    "a": "What is Prompt Injection (Adversarial Attack)" 
-  },
-  {
-    "q": "In a Python FastMCP implementation, this specific decorator is used to define a function that an AI agent can call to retrieve live interface statistics from a Cisco Catalyst switch.",
-    "a": "What is @mcp.tool()?"
-  }    
-]
+    "name": "Final Jeopardy",
+    "questions": [
+      {
+        "q": "This protocol enables AI models to interact with external tools and data sources through a standardized interface.",
+        "a": "What is MCP (Model Context Protocol)?"
+      }
+    ]
   }
 ]
