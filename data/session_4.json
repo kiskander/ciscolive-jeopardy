@@ -53,23 +53,23 @@
     "name": "Network Design",
     "questions": [
       {
-        "q": "This topology connects devices to a central device.",
+        "q": "In this network topology, every device connects to a single central switch or hub.",
         "a": "What is a star topology?"
       },
       {
-        "q": "This design improves network reliability through redundancy.",
+        "q": "This network design approach uses redundant components and failover mechanisms to minimize service downtime during failures.",
         "a": "What is high availability?"
       },
       {
-        "q": "This model divides networks into core, distribution, and access layers.",
+        "q": "This network design model organizes infrastructure into three layers: core, distribution, and access.",
         "a": "What is the hierarchical network model?"
       },
       {
-        "q": "This Cisco switching feature bundles multiple physical Ethernet links into one logical link to increase bandwidth and provide redundancy.",
+        "q": "This Cisco switching technology combines multiple physical Ethernet links into one logical link to increase bandwidth and provide redundancy.",
         "a": "What is EtherChannel or PortChannel?"
       },
       {
-        "q": "This design principle minimizes the impact of failures.",
+        "q": "Unlike high availability, which minimizes downtime through redundancy and rapid recovery, this design principle allows a system to continue operating despite component failures with minimal or no interruption.",
         "a": "What is fault tolerance?"
       }
     ]
@@ -78,24 +78,24 @@
     "name": "Cisco Certifications",
     "questions": [
       {
-        "q": "This certification is the first step in Cisco networking careers.",
-        "a": "What is CCST or CCNA?"
+        "q": "This entry-level Cisco certification validates foundational networking knowledge and prepares candidates for more advanced networking certifications.",
+        "a": "What is the Cisco Certified Network Associate (CCNA)?"
       },
       {
-        "q": "This professtional level certification focuses on enterprise networking.",
-        "a": "What is CCNP Enterprise?"
+        "q": "This Cisco Professional-level certification validates skills in implementing, troubleshooting, and managing enterprise wired and wireless networks.",
+        "a": "What is the Cisco Certified Network Professional Enterprise (CCNP Enterprise)?"
       },
       {
-        "q": "This certification is considered expert level.",
-        "a": "What is CCIE?"
+        "q": "This Cisco certification level validates expert-level skills in designing, operating, and troubleshooting complex enterprise or specialized networks.",
+        "a": "What is the Cisco Certified Internetwork Expert (CCIE)?"
       },
       {
-        "q": "This Cisco Professional level certification focuses specifically on infrastructure security?",
-        "a": "What is CCNP Security?"
+        "q": "This Cisco Professional-level certification validates skills in securing network infrastructure, implementing security solutions, and protecting enterprise networks.",
+        "a": "What is the Cisco Certified Network Professional Security (CCNP Security)?"
       },
       {
-        "q": "This certification validates network programmability skills.",
-        "a": "What is Automation Certification Track?"
+        "q": "This Cisco certification track focuses on network programmability, APIs, software development, and network automation.",
+        "a": "What is the Cisco Automation Certification Track?"
       }
     ]
   }

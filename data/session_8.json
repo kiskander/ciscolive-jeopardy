@@ -28,24 +28,24 @@
     "name": "Troubleshooting",
     "questions": [
       {
-        "q": "This troubleshooting method begins by checking cables, power, and link status at OSI Layer 1 before moving up the stack.",
-        "a": "What is bottom-up troubleshooting?"
+        "q": "This command uses ICMP echo requests and replies to verify IP connectivity between two devices.",
+        "a": "What is ping?"
       },
       {
-        "q": "In a troubleshooting workflow, this step clearly defines the symptoms and scope of the issue before testing possible causes.",
-        "a": "What is problem identification?"
+        "q": "This command identifies the intermediate routers along a packet's path to a destination, helping pinpoint where connectivity may fail.",
+        "a": "What is traceroute?"
       },
       {
-        "q": "In a troubleshooting workflow, this step tests a proposed explanation to determine whether it accounts for the observed symptoms.",
-        "a": "What is testing the hypothesis?"
+        "q": "This Cisco IOS command reveals destination networks, next-hop addresses, and route sources used by a router to forward packets.",
+        "a": "What is show ip route?"
       },
       {
-        "q": "This step involves recording findings.",
-        "a": "What is documentation?"
+        "q": "This Cisco IOS command displays interface statistics, including CRC errors, input errors, and output drops that can indicate link faults or congestion.",
+        "a": "What is show interfaces?"
       },
       {
-        "q": "This follow-up measure addresses the underlying cause of an incident to reduce the chance that the same issue will recur.",
-        "a": "What is preventive action?"
+        "q": "This diagnostic tool captures and decodes network traffic at the packet level to investigate protocol exchanges, retransmissions, and communication failures.",
+        "a": "What is a packet analyzer (protocol analyzer)?"
       }
     ]
   },
@@ -53,24 +53,24 @@
     "name": "Wireless Networking",
     "questions": [
       {
-        "q": "This product can operate at 2.4, 5, and 6GHz.",
-        "a": "What is Wi-Fi?"
+        "q": "This wireless networking device allows Wi-Fi-enabled clients to connect to a wired network.",
+        "a": "What is a wireless access point?"
       },
       {
-        "q": "This device broadcasts a wireless signal to which endpoints connect.",
-        "a": "What is an access point?"
+        "q": "This identifier, typically broadcast by an access point, is used by clients to recognize and select a wireless network.",
+        "a": "What is a Service Set Identifier (SSID)?"
       },
       {
-        "q": "This identifier names a wireless network.",
-        "a": "What is SSID?"
+        "q": "This IEEE wireless LAN standard, also known as Wi-Fi 6, introduced Orthogonal Frequency-Division Multiple Access (OFDMA) to improve efficiency in dense environments.",
+        "a": "What is 802.11ax?"
       },
       {
-        "q": "This standard provides faster speeds than 802.11n.",
-        "a": "What is 802.11ac or 802.11ax or 802.11be?"
+        "q": "This Wi-Fi security certification introduced Simultaneous Authentication of Equals (SAE) for password-based authentication, replacing the Pre-Shared Key (PSK) authentication method used in WPA2-Personal.",
+        "a": "What is WPA3-Personal?"
       },
       {
-        "q": "This security protocol replaced WPA2 with stronger encryption.",
-        "a": "What is WPA3?"
+        "q": "This Wi-Fi 7 feature allows compatible devices to transmit and receive data over multiple frequency bands or channels simultaneously to improve throughput and reduce latency.",
+        "a": "What is Multi-Link Operation (MLO)?"
       }
     ]
   },
@@ -78,23 +78,23 @@
     "name": "Cisco Tools and Platforms",
     "questions": [
       {
-        "q": "This Cisco network simulation platform lets learners build and run virtual network topologies using virtual Cisco images.",
-        "a": "What is Cisco Modeling Labs?"
-      },
-      {
-        "q": "This platform hosts Cisco certifications and training resources.",
+        "q": "This Cisco online community provides certification resources, technical discussions, and peer support for networking professionals.",
         "a": "What is the Cisco Learning Network?"
       },
       {
-        "q": "This Cisco tool provides centralized enterprise device management.",
+        "q": "This network simulation platform uses virtual machine images to let learners build, configure, and troubleshoot Cisco and multivendor network topologies.",
+        "a": "What is Cisco Modeling Labs (CML)?"
+      },
+      {
+        "q": "Formerly known as DNA Center, this Cisco platform centrally manages enterprise campus and branch networks through automation, policy management, and network assurance.",
         "a": "What is Cisco Catalyst Center?"
       },
       {
-        "q": "This Cisco platform provides cloud-based security services.",
-        "a": "What is Security Cloud Control?"
+        "q": "This Cisco platform provides centralized, cloud-based management of security policies and firewall deployments across distributed environments.",
+        "a": "What is Cisco Security Cloud Control?"
       },
       {
-        "q": "This unified, cloud-delivered platform correlates telemetry across network, endpoint, cloud, and email to detect and respond to advanced threats faster than isolated security tools.",
+        "q": "This extended detection and response platform correlates security information across multiple domains to help security teams investigate threats and coordinate responses.",
         "a": "What is Cisco XDR?"
       }
     ]
