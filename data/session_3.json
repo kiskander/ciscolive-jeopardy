@@ -33,7 +33,7 @@
       },
       {
         "q": "This Terraform block is used to define the specific provider version, like 'cisco-devnet/iosxe'.",
-        "a": "What is the map or block?"
+        "a": "What is the required_providers block?"
       },
       {
         "q": "This Docker instruction in a Dockerfile defines the base image to start from.",

@@ -15,7 +15,7 @@
         "a": "What is terraform apply?"
       },
       {
-        "q": "This Ansible module applies a specific configuration line exists in a Cisco IOS XE device's running config.",
+        "q": "This Ansible module ensures a specific configuration line exists in a Cisco IOS XE device's running config.",
         "a": "What is ios_config?"
       },
       {
@@ -33,7 +33,7 @@
       },
       {
         "q": "In a Docker Compose file, this specific parameter is used to map a local directory on the host machine to a directory inside the container, ensuring that configuration data or 'Source of Truth' files remain persistent even if the container is restarted.",
-        "a": "What is a local directory or data store?"
+        "a": "What is a volume?"
       },
       {
         "q": "In a GitLab CI/CD pipeline, this specific stage is responsible for preparing the environment, such as installing necessary Python libraries or pulling Docker images, before any tests or deployments are executed.",

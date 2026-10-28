@@ -41,7 +41,7 @@
       },
       {
         "q": "In a GitLab CI/CD pipeline, this specific stage is responsible for running operational state checks (e.g., 'show ip ospf neighbor') to confirm that the network reached the desired state after the configuration was applied.",
-        "a": "What is the validation stage?"
+        "a": "What is the post-validation stage?"
       },
       {
         "q": "A YANG 'container' named 'system' contains a 'leaf' named 'hostname'. When representing this in YAML for an automation tool, the 'hostname' would be indented under 'system' and separated from its value by this character.",

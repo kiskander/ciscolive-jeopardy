@@ -3,23 +3,23 @@
     "name": "VLANs and Switching",
     "questions": [
       {
-        "q": "This VLAN type carries user traffic.",
+        "q": "This VLAN type carries end-user traffic, such as data from computers and printers.",
         "a": "What is a data VLAN?"
       },
       {
-        "q": "This command sets a port to trunk mode.",
+        "q": "This Cisco IOS command configures a switch port to carry traffic for multiple VLANs.",
         "a": "What is switchport mode trunk?"
       },
       {
-        "q": "This VLAN is used to carry management traffic.",
+        "q": "This VLAN type provides network administrators with connectivity for managing switches and other network devices.",
         "a": "What is the management VLAN?"
       },
       {
-        "q": "This protocol advertises VLAN information between switches.",
+        "q": "This Cisco protocol distributes VLAN configuration information between switches in the same management domain.",
         "a": "What is VTP?"
       },
       {
-        "q": "This feature allows multiple physical links to act as one logical link.",
+        "q": "This Cisco switching technology bundles multiple physical Ethernet links into one logical link to increase bandwidth and provide redundancy.",
         "a": "What is EtherChannel or PortChannel?"
       }
     ]
@@ -28,24 +28,24 @@
     "name": "Network Services",
     "questions": [
       {
-        "q": "This naming service translates domain names such as example.com into IP addresses.",
+        "q": "This naming service resolves domain names, such as example.com, to IP addresses so clients can locate network resources.",
         "a": "What is DNS?"
       },
       {
-        "q": "This time-synchronization service commonly uses UDP port 123 to keep network devices' clocks aligned.",
-        "a": "What is NTP?"
+        "q": "This time-synchronization protocol commonly uses UDP port 123 to keep network devices' clocks synchronized.",
+        "a": "What is the Network Time Protocol (NTP)?"
       },
       {
         "q": "This simple secure file-transfer protocol uses SSH for encryption and authentication and typically operates over TCP port 22.",
         "a": "What is SCP?"
       },
       {
-        "q": "This protocol protects HTTP web traffic with TLS encryption and commonly uses TCP port 443.",
-        "a": "What is HTTPS?"
+        "q": "This secure web protocol uses TLS to encrypt HTTP communications and commonly operates over TCP port 443.",
+        "a": "What is Hypertext Transfer Protocol Secure (HTTPS)?"
       },
       {
-        "q": "This client-server service automatically leases IP addresses, subnet masks, default gateways, and other network settings to hosts.",
-        "a": "What is DHCP?"
+        "q": "This client-server protocol automatically leases IP addresses and supplies network settings, such as subnet masks and default gateways, to hosts.",
+        "a": "What is the Dynamic Host Configuration Protocol (DHCP)?"
       }
     ]
   },
@@ -53,23 +53,23 @@
     "name": "Cisco Cybersecurity",
     "questions": [
       {
-        "q": "This term describes verifying a user's identity.",
+        "q": "This security process verifies a user's identity by checking credentials, such as passwords or multifactor authentication.",
         "a": "What is authentication?"
       },
       {
-        "q": "This term describes granting permissions to resources.",
+        "q": "This security process determines what an authenticated user is allowed to access or perform.",
         "a": "What is authorization?"
       },
       {
-        "q": "This term describes tracking user activity.",
+        "q": "This security function logs user activity, resource usage, and access events to support auditing and accountability.",
         "a": "What is accounting?"
       },
       {
-        "q": "The combination of user identity, granting permissions, and tracking of user activity is commonly referred to as this.",
-        "a": "What is AAA?"
+        "q": "This security framework uses three functions—identity verification, access control, and activity logging—to manage and audit network access.",
+        "a": "What is AAA (Authentication, Authorization, and Accounting)?"
       },
       {
-        "q": "This attack intercepts communication between two parties.",
+        "q": "In this cyberattack, an attacker secretly intercepts communications between two parties and may modify the data exchanged without their knowledge.",
         "a": "What is a man-in-the-middle attack?"
       }
     ]
@@ -78,23 +78,23 @@
     "name": "Cisco History",
     "questions": [
       {
-        "q": "This Cisco network operating system family powers many traditional Cisco routers and switches and provides the familiar router and switch command-line interface.",
-        "a": "What is IOS?"
-      },
-      {
-        "q": "This Cisco-hosted event brings customers, partners, and IT professionals together for technical sessions, product demonstrations, and training.",
-        "a": "What is Cisco Live?"
-      },
-      {
-        "q": "This California city in Silicon Valley is home to Cisco's global headquarters.",
-        "a": "What is San Jose?"
-      },
-      {
-        "q": "This company was founded in 1984 and is known for networking equipment.",
+        "q": "Founded in 1984 by Leonard Bosack and Sandy Lerner, this networking technology company takes its name from San Francisco.",
         "a": "What is Cisco?"
       },
       {
-        "q": "This CEO led Cisco from 1995 to 2015.",
+        "q": "This annual Cisco-hosted event features technical sessions, hands-on labs, product demonstrations, and networking opportunities for IT professionals worldwide.",
+        "a": "What is Cisco Live?"
+      },
+      {
+        "q": "Located in Silicon Valley, this California city is home to Cisco's global headquarters.",
+        "a": "What is San Jose?"
+      },
+      {
+        "q": "This university's computer scientists developed the early router technology that helped pave the way for Cisco's founding in 1984.",
+        "a": "What is Stanford University?"
+      },
+      {
+        "q": "This executive served as Cisco's CEO from 1995 to 2015, overseeing its expansion into a global networking technology leader.",
         "a": "Who is John Chambers?"
       }
     ]

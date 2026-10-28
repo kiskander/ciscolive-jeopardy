@@ -53,24 +53,24 @@
     "name": "Cisco Learning Network VIP Members",
     "questions": [
       {
-        "q": "These members are recognized for helping others in the community.",
-        "a": "What are VIP members?"
+        "q": "These recognized Cisco Learning Network community members are known for sharing expertise and helping fellow learners succeed.",
+        "a": "Who are Cisco Learning Network VIP members?"
       },
       {
-        "q": "This activity often earns recognition points in the community.",
-        "a": "What is answering questions?"
+        "q": "This community activity involves responding to another member’s technical question with a helpful explanation or solution.",
+        "a": "What is answering a question?"
       },
       {
-        "q": "This type of content shares knowledge and guidance with other learners.",
-        "a": "What is a discussion post?"
+        "q": "This type of community content allows members to ask questions, exchange ideas, and discuss technical topics with other learners.",
+        "a": "What is a discussion thread?"
       },
       {
-        "q": "This recognition highlights consistent contributions and leadership.",
-        "a": "What is community recognition?"
+        "q": "This informal leadership role involves sharing expertise, guiding conversations, and helping newer community members navigate technical challenges.",
+        "a": "What is a community mentor?"
       },
       {
-        "q": "This role helps guide conversations and support learners.",
-        "a": "What is a mentor?"
+        "q": "This formal acknowledgment highlights members whose sustained contributions, technical expertise, and community engagement make them stand out among their peers.",
+        "a": "What is community contributor recognition?"
       }
     ]
   },
@@ -78,23 +78,23 @@
     "name": "Security Operations",
     "questions": [
       {
-        "q": "This team monitors security alerts and incidents.",
-        "a": "What is a Security Operations Center?"
+        "q": "This dedicated team monitors security alerts, investigates suspicious activity, and coordinates responses to threats across an organization.",
+        "a": "What is a Security Operations Center (SOC)?"
       },
       {
-        "q": "This type of log records authentication events such as successful and failed user sign-ins.",
+        "q": "This type of log records successful and failed user sign-in attempts, helping administrators investigate authentication issues and suspicious access.",
         "a": "What is an authentication log?"
       },
       {
-        "q": "This tool aggregates logs from multiple systems.",
-        "a": "What is SIEM?"
+        "q": "This security technology collects and correlates log data from multiple systems to identify suspicious patterns and potential threats.",
+        "a": "What is Security Information and Event Management (SIEM)?"
       },
       {
-        "q": "This structured security process identifies, analyzes, contains, and responds to a suspected or confirmed security event.",
+        "q": "This structured process coordinates the handling of a security incident, including analysis, containment, eradication, and recovery.",
         "a": "What is incident response?"
       },
       {
-        "q": "In incident response, this phase returns affected systems and services to normal operation after containment and eradication.",
+        "q": "In the NIST incident response lifecycle, this phase focuses on restoring affected systems, verifying normal operation, and monitoring for signs of renewed compromise after containment and eradication.",
         "a": "What is recovery?"
       }
     ]
