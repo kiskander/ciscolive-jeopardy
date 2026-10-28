@@ -3,24 +3,24 @@
     "name": "Wireless",
     "questions": [
       {
-        "q": "This standard operates at 2.4 GHz and 5 GHz.",
-        "a": "What is 802.11n?"
+        "q": "This Wi-Fi standard, also known as Extremely High Throughput, supports operation across the 2.4 GHz, 5 GHz, and 6 GHz bands and introduces features such as Multi-Link Operation.",
+        "a": "What is 802.11be (Wi-Fi 7)?"
       },
       {
         "q": "This device provides wireless connectivity to clients.",
         "a": "What is an access point?"
       },
       {
-        "q": "This term describes overlapping wireless coverage areas.",
+        "q": "This client behavior occurs when a wireless device moves between access points while maintaining connectivity to the same WLAN.",
         "a": "What is roaming?"
       },
       {
-        "q": "This channel width provides higher throughput in Wi-Fi networks.",
-        "a": "What is 40 MHz?"
+        "q": "This Wi-Fi 7 feature allows a device to transmit and receive data across multiple frequency bands simultaneously to improve throughput and reduce latency.",
+        "a": "What is Multi-Link Operation (MLO)?"
       },
       {
-        "q": "This technology allows multiple devices to transmit simultaneously.",
-        "a": "What is MU-MIMO?"
+        "q": "This Wi-Fi technology uses multiple antennas and spatial streams to serve multiple users at the same time.",
+        "a": "What is Multi-User MIMO (MU-MIMO)?"
       }
     ]
   },
@@ -65,8 +65,8 @@
         "a": "What is the hierarchical network model?"
       },
       {
-        "q": "This technology aggregates multiple links into one logical link.",
-        "a": "What is EtherChannel?"
+        "q": "This Cisco switching feature bundles multiple physical Ethernet links into one logical link to increase bandwidth and provide redundancy.",
+        "a": "What is EtherChannel or PortChannel?"
       },
       {
         "q": "This design principle minimizes the impact of failures.",
@@ -79,10 +79,10 @@
     "questions": [
       {
         "q": "This certification is the first step in Cisco networking careers.",
-        "a": "What is CCNA?"
+        "a": "What is CCST or CCNA?"
       },
       {
-        "q": "This certification focuses on enterprise networking.",
+        "q": "This professtional level certification focuses on enterprise networking.",
         "a": "What is CCNP Enterprise?"
       },
       {
@@ -90,12 +90,12 @@
         "a": "What is CCIE?"
       },
       {
-        "q": "This certification focuses on security technologies.",
+        "q": "This Cisco Professional level certification focuses specifically on infrastructure security?",
         "a": "What is CCNP Security?"
       },
       {
-        "q": "This certification validates automation and programmability skills.",
-        "a": "What is CCNP Automation?"
+        "q": "This certification validates network programmability skills.",
+        "a": "What is Automation Certification Track?"
       }
     ]
   }

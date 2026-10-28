@@ -3,19 +3,19 @@
     "name": "Routing Fundamentals",
     "questions": [
       {
-        "q": "This routing method requires manual configuration.",
+        "q": "In this routing method, an administrator manually enters the destination network and next hop instead of relying on a routing protocol.",
         "a": "What is static routing?"
       },
       {
-        "q": "This routing protocol uses hop count as its metric.",
+        "q": "This distance-vector routing protocol selects routes using hop count and treats 15 hops as the maximum reachable distance.",
         "a": "What is RIP?"
       },
       {
-        "q": "This routing protocol is link-state based and widely used in enterprises.",
+        "q": "This open-standard link-state routing protocol builds a topology database and calculates shortest paths using the SPF algorithm.",
         "a": "What is OSPF?"
       },
       {
-        "q": "This routing protocol is used to exchange routes between internet providers.",
+        "q": "This path-vector routing protocol exchanges reachability information between autonomous systems and is central to interdomain Internet routing.",
         "a": "What is BGP?"
       },
       {
@@ -28,11 +28,11 @@
     "name": "Network Monitoring",
     "questions": [
       {
-        "q": "This command checks connectivity to another device.",
+        "q": "This command sends ICMP Echo Requests and checks for Echo Replies to test basic IP reachability.",
         "a": "What is ping?"
       },
       {
-        "q": "This command shows the path packets take to a destination.",
+        "q": "This diagnostic command reveals the Layer 3 hops toward a destination by using probes with increasing TTL or hop-limit values.",
         "a": "What is traceroute?"
       },
       {
@@ -40,11 +40,11 @@
         "a": "What is SNMP?"
       },
       {
-        "q": "This tool captures and analyzes network traffic.",
-        "a": "What is a packet analyzer?"
+        "q": "This type of tool captures packets from a network interface so an engineer can inspect headers, protocols, and traffic exchanges.",
+        "a": "What is a packet capturer?"
       },
       {
-        "q": "This metric measures the delay of packets across a network.",
+        "q": "This performance metric measures the time it takes for a packet to travel from source to destination.",
         "a": "What is latency?"
       }
     ]
@@ -62,7 +62,7 @@
       },
       {
         "q": "This type of content shares knowledge and guidance with other learners.",
-        "a": "What is a blog post?"
+        "a": "What is a discussion post?"
       },
       {
         "q": "This recognition highlights consistent contributions and leadership.",
@@ -82,7 +82,7 @@
         "a": "What is a Security Operations Center?"
       },
       {
-        "q": "This log records user login activity.",
+        "q": "This type of log records authentication events such as successful and failed user sign-ins.",
         "a": "What is an authentication log?"
       },
       {
@@ -90,11 +90,11 @@
         "a": "What is SIEM?"
       },
       {
-        "q": "This process investigates suspicious activity.",
+        "q": "This structured security process identifies, analyzes, contains, and responds to a suspected or confirmed security event.",
         "a": "What is incident response?"
       },
       {
-        "q": "This process restores systems after a security incident.",
+        "q": "In incident response, this phase returns affected systems and services to normal operation after containment and eradication.",
         "a": "What is recovery?"
       }
     ]

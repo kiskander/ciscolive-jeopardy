@@ -32,11 +32,11 @@
         "a": "What is IaaS?"
       },
       {
-        "q": "This model provides software applications via a web browser.",
+        "q": "In this cloud service model, customers use a provider-hosted application through a browser without managing the underlying infrastructure.",
         "a": "What is SaaS?"
       },
       {
-        "q": "This technology allows multiple virtual machines to run on one physical host.",
+        "q": "This technology uses a hypervisor to run multiple isolated virtual machines on the same physical server.",
         "a": "What is virtualization?"
       },
       {
@@ -44,7 +44,7 @@
         "a": "What is a private cloud?"
       },
       {
-        "q": "This technology packages applications and dependencies together for portability.",
+        "q": "This OS-level approach packages an application and its dependencies into lightweight, portable units that share the host operating-system kernel.",
         "a": "What is containerization?"
       }
     ]
@@ -53,23 +53,23 @@
     "name": "Protocols",
     "questions": [
       {
-        "q": "This protocol resolves MAC addresses from IP addresses.",
+        "q": "On an IPv4 local network, this protocol broadcasts a request to discover the Layer 2 hardware address associated with a known IPv4 address.",
         "a": "What is ARP?"
       },
       {
-        "q": "This protocol provides secure remote login to devices.",
+        "q": "This protocol provides encrypted command-line access to remote network devices and commonly uses TCP port 22.",
         "a": "What is SSH?"
       },
       {
-        "q": "This protocol monitors network devices and performance.",
+        "q": "This protocol lets a network management station query device counters and receive notifications using managed objects, commonly over UDP ports 161 and 162.",
         "a": "What is SNMP?"
       },
       {
-        "q": "This protocol dynamically discovers neighboring Cisco devices.",
+        "q": "This Cisco-proprietary Layer 2 discovery protocol advertises device identity, capabilities, and connected-interface details to directly connected Cisco neighbors.",
         "a": "What is CDP?"
       },
       {
-        "q": "This protocol allows devices from different vendors to discover each other.",
+        "q": "This vendor-neutral Layer 2 discovery protocol allows directly connected devices from different manufacturers to advertise identity and port information.",
         "a": "What is LLDP?"
       }
     ]
@@ -82,11 +82,11 @@
         "a": "What is Python?"
       },
       {
-        "q": "This data format uses key-value pairs and is widely used in APIs.",
+        "q": "This lightweight API data format represents information as key-value pairs and arrays, using braces and square brackets.",
         "a": "What is JSON?"
       },
       {
-        "q": "This protocol retrieves configuration data from network devices.",
+        "q": "This XML-based network management protocol lets automation tools retrieve and manage configuration data through structured RPC operations.",
         "a": "What is NETCONF?"
       },
       {
@@ -94,7 +94,7 @@
         "a": "What is JSON?"
       },
       {
-        "q": "This model-driven interface uses REST principles for network automation.",
+        "q": "This model-driven interface uses HTTP requests for network automation.",
         "a": "What is RESTCONF?"
       }
     ]

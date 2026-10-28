@@ -3,11 +3,11 @@
     "name": "APIs and Data Formats",
     "questions": [
       {
-        "q": "This API style uses HTTP methods like GET and POST.",
+        "q": "This architectural style commonly exposes resources through URLs and uses standard HTTP methods such as GET, POST, PUT, PATCH, and DELETE.",
         "a": "What is REST?"
       },
       {
-        "q": "This method retrieves data from an API.",
+        "q": "This HTTP request method asks an API server to return a representation of a resource without requesting a state change.",
         "a": "What is GET?"
       },
       {
@@ -15,11 +15,11 @@
         "a": "What is XML?"
       },
       {
-        "q": "This format is lightweight and commonly used in automation.",
+        "q": "This data format represents objects and arrays in a compact, text-based structure and is widely used in REST API payloads.",
         "a": "What is JSON?"
       },
       {
-        "q": "This response code indicates a successful request.",
+        "q": "This HTTP status code means the request succeeded; it is the standard success response for many GET requests.",
         "a": "What is HTTP 200?"
       }
     ]
@@ -28,23 +28,23 @@
     "name": "Troubleshooting",
     "questions": [
       {
-        "q": "This approach starts testing at the physical layer first.",
+        "q": "This troubleshooting method begins by checking cables, power, and link status at OSI Layer 1 before moving up the stack.",
         "a": "What is bottom-up troubleshooting?"
       },
       {
-        "q": "This step involves identifying the problem.",
+        "q": "In a troubleshooting workflow, this step clearly defines the symptoms and scope of the issue before testing possible causes.",
         "a": "What is problem identification?"
       },
       {
-        "q": "This step involves testing a possible solution.",
+        "q": "In a troubleshooting workflow, this step tests a proposed explanation to determine whether it accounts for the observed symptoms.",
         "a": "What is testing the hypothesis?"
       },
       {
-        "q": "This step involves documenting findings.",
+        "q": "This step involves recording findings.",
         "a": "What is documentation?"
       },
       {
-        "q": "This step ensures the issue does not happen again.",
+        "q": "This follow-up measure addresses the underlying cause of an incident to reduce the chance that the same issue will recur.",
         "a": "What is preventive action?"
       }
     ]
@@ -53,11 +53,11 @@
     "name": "Wireless Networking",
     "questions": [
       {
-        "q": "This band operates at 2.4 GHz.",
+        "q": "This product can operate at 2.4, 5, and 6GHz.",
         "a": "What is Wi-Fi?"
       },
       {
-        "q": "This device broadcasts a wireless signal.",
+        "q": "This device broadcasts a wireless signal to which endpoints connect.",
         "a": "What is an access point?"
       },
       {
@@ -66,7 +66,7 @@
       },
       {
         "q": "This standard provides faster speeds than 802.11n.",
-        "a": "What is 802.11ac?"
+        "a": "What is 802.11ac or 802.11ax or 802.11be?"
       },
       {
         "q": "This security protocol replaced WPA2 with stronger encryption.",
@@ -78,7 +78,7 @@
     "name": "Cisco Tools and Platforms",
     "questions": [
       {
-        "q": "This Cisco platform provides online labs for learning.",
+        "q": "This Cisco network simulation platform lets learners build and run virtual network topologies using virtual Cisco images.",
         "a": "What is Cisco Modeling Labs?"
       },
       {
@@ -86,16 +86,16 @@
         "a": "What is the Cisco Learning Network?"
       },
       {
-        "q": "This Cisco tool provides centralized device management.",
-        "a": "What is Cisco DNA Center?"
+        "q": "This Cisco tool provides centralized enterprise device management.",
+        "a": "What is Cisco Catalyst Center?"
       },
       {
         "q": "This Cisco platform provides cloud-based security services.",
-        "a": "What is Cisco Umbrella?"
+        "a": "What is Security Cloud Control?"
       },
       {
-        "q": "This Cisco platform integrates multiple security tools into one interface.",
-        "a": "What is SecureX?"
+        "q": "This unified, cloud-delivered platform correlates telemetry across network, endpoint, cloud, and email to detect and respond to advanced threats faster than isolated security tools.",
+        "a": "What is Cisco XDR?"
       }
     ]
   }
