@@ -20,7 +20,7 @@
       },
       {
         "q": "This feature allows multiple physical links to act as one logical link.",
-        "a": "What is EtherChannel?"
+        "a": "What is EtherChannel or PortChannel?"
       }
     ]
   },
@@ -28,23 +28,23 @@
     "name": "Network Services",
     "questions": [
       {
-        "q": "This service resolves hostnames to IP addresses.",
+        "q": "This naming service translates domain names such as example.com into IP addresses.",
         "a": "What is DNS?"
       },
       {
-        "q": "This service synchronizes time across network devices.",
+        "q": "This time-synchronization service commonly uses UDP port 123 to keep network devices' clocks aligned.",
         "a": "What is NTP?"
       },
       {
-        "q": "This protocol transfers files between devices.",
-        "a": "What is FTP?"
+        "q": "This simple secure file-transfer protocol uses SSH for encryption and authentication and typically operates over TCP port 22.",
+        "a": "What is SCP?"
       },
       {
-        "q": "This secure version of HTTP encrypts web traffic.",
+        "q": "This protocol protects HTTP web traffic with TLS encryption and commonly uses TCP port 443.",
         "a": "What is HTTPS?"
       },
       {
-        "q": "This service dynamically assigns IP configuration to clients.",
+        "q": "This client-server service automatically leases IP addresses, subnet masks, default gateways, and other network settings to hosts.",
         "a": "What is DHCP?"
       }
     ]
@@ -65,7 +65,7 @@
         "a": "What is accounting?"
       },
       {
-        "q": "These three processes together form a common security framework.",
+        "q": "The combination of user identity, granting permissions, and tracking of user activity is commonly referred to as this.",
         "a": "What is AAA?"
       },
       {
@@ -78,15 +78,15 @@
     "name": "Cisco History",
     "questions": [
       {
-        "q": "This Cisco operating system runs on routers and switches.",
+        "q": "This Cisco network operating system family powers many traditional Cisco routers and switches and provides the familiar router and switch command-line interface.",
         "a": "What is IOS?"
       },
       {
-        "q": "This annual event brings Cisco customers and partners together worldwide.",
+        "q": "This Cisco-hosted event brings customers, partners, and IT professionals together for technical sessions, product demonstrations, and training.",
         "a": "What is Cisco Live?"
       },
       {
-        "q": "This city is home to Cisco headquarters.",
+        "q": "This California city in Silicon Valley is home to Cisco's global headquarters.",
         "a": "What is San Jose?"
       },
       {

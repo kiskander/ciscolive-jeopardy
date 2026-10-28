@@ -3,23 +3,23 @@
     "name": "Routing Advanced Concepts",
     "questions": [
       {
-        "q": "This term describes the path data takes across networks.",
+        "q": "This routing table entry specifies a destination network and the next hop or path used to reach it.",
         "a": "What is a route?"
       },
       {
-        "q": "This value determines the preferred path in routing.",
+        "q": "Routing protocols use this value to calculate the best path to a destination network based on factors such as hop count or bandwidth.",
         "a": "What is a metric?"
       },
       {
-        "q": "This administrative value determines route trustworthiness.",
+        "q": "Cisco routers use this value to rank the preference of routes learned from different sources for the same destination, with lower values being preferred.",
         "a": "What is administrative distance?"
       },
       {
-        "q": "This feature allows multiple routing protocols to share routes.",
+        "q": "This routing process allows routes learned through one routing protocol to be advertised into another routing protocol.",
         "a": "What is route redistribution?"
       },
       {
-        "q": "This process summarizes multiple routes into one.",
+        "q": "This routing technique combines multiple contiguous network prefixes into a single, broader prefix to reduce the number of entries in a routing table.",
         "a": "What is route summarization?"
       }
     ]
@@ -28,24 +28,24 @@
     "name": "General Networking",
     "questions": [
       {
-        "q": "This device connects networks together.",
+        "q": "This network device forwards packets between different IP networks using routing tables.",
         "a": "What is a router?"
       },
       {
-        "q": "This device operates at Layer 2 of the OSI model.",
+        "q": "This network device forwards Ethernet frames using MAC addresses and operates at Layer 2 of the OSI model.",
         "a": "What is a switch?"
       },
       {
-        "q": "This model describes how networks communicate in seven layers.",
+        "q": "This reference model divides network communication into seven distinct layers, from the Physical layer to the Application layer.",
         "a": "What is the OSI model?"
       },
       {
-        "q": "This layer handles encryption and compression.",
-        "a": "What is the Presentation layer?"
+        "q": "This OSI layer handles data encryption, decryption, compression, and translation between data formats.",
+        "a": "What is the Presentation layer (Layer 6)?"
       },
       {
-        "q": "This layer manages sessions between applications.",
-        "a": "What is the Session layer?"
+        "q": "This OSI layer establishes, maintains, and terminates communication sessions between applications.",
+        "a": "What is the Session layer (Layer 5)?"
       }
     ]
   },
@@ -53,23 +53,23 @@
     "name": "Cisco Cybersecurity",
     "questions": [
       {
-        "q": "This software protects devices from malicious programs.",
+        "q": "This endpoint-security software detects, blocks, or removes viruses, trojans, and other malicious programs.",
         "a": "What is antivirus?"
       },
       {
-        "q": "This attack tricks users into revealing sensitive information.",
+        "q": "This social-engineering attack uses deceptive emails, messages, or websites to trick people into revealing credentials or other sensitive information.",
         "a": "What is phishing?"
       },
       {
-        "q": "This policy enforces strong password requirements.",
+        "q": "This policy enforces strong credential requirements.",
         "a": "What is a password policy?"
       },
       {
-        "q": "This technique encrypts data to protect confidentiality.",
+        "q": "This cryptographic process transforms readable plaintext into unreadable ciphertext using a key so unauthorized parties cannot understand the data.",
         "a": "What is encryption?"
       },
       {
-        "q": "This principle grants users only the access they need.",
+        "q": "This security principle limits each user or process to the minimum permissions required to perform its authorized tasks.",
         "a": "What is least privilege?"
       }
     ]
@@ -78,24 +78,24 @@
     "name": "CCNA",
     "questions": [
       {
-        "q": "This exam validates foundational networking knowledge.",
-        "a": "What is the CCNA exam?"
+        "q": "This Cisco certification exam tests foundational knowledge of network access, IP connectivity, IP services, security fundamentals, and network automation.",
+        "a": "What is the Cisco Certified Network Associate (CCNA) exam?"
       },
       {
-        "q": "This command displays interface configuration details.",
+        "q": "This Cisco IOS command displays the device’s active configuration, including configured interface settings.",
         "a": "What is show running-config?"
       },
       {
-        "q": "This address uniquely identifies a device on a network.",
+        "q": "This logical Layer 3 address identifies a device on an IP network and enables routing between networks.",
         "a": "What is an IP address?"
       },
       {
-        "q": "This protocol provides connectionless communication.",
-        "a": "What is UDP?"
+        "q": "This transport-layer protocol sends datagrams without establishing a connection or guaranteeing delivery.",
+        "a": "What is the User Datagram Protocol (UDP)?"
       },
       {
-        "q": "This addressing method allows multiple devices to share one public IP.",
-        "a": "What is NAT?"
+        "q": "This networking technique translates private IP addresses into public IP addresses to enable communication with external networks.",
+        "a": "What is Network Address Translation (NAT)?"
       }
     ]
   }
