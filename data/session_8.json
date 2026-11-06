@@ -19,83 +19,83 @@
         "a": "What is JSON?"
       },
       {
-        "q": "This HTTP status code means the request succeeded; it is the standard success response for many GET requests.",
+        "q": "This three-digit HTTP response status indicates that a request succeeded and is commonly returned when a GET request completes successfully.",
         "a": "What is HTTP 200?"
       }
     ]
   },
   {
-    "name": "Troubleshooting",
+    "name": "Travel Bucket List",
     "questions": [
       {
-        "q": "This troubleshooting method begins by checking cables, power, and link status at OSI Layer 1 before moving up the stack.",
-        "a": "What is bottom-up troubleshooting?"
+        "q": "This Peruvian archaeological site high in the Andes is associated with the Inca civilization.",
+        "a": "What is Machu Picchu?"
       },
       {
-        "q": "In a troubleshooting workflow, this step clearly defines the symptoms and scope of the issue before testing possible causes.",
-        "a": "What is problem identification?"
+        "q": "This Greek island is famous for whitewashed buildings and blue-domed churches overlooking the Aegean Sea.",
+        "a": "What is Santorini?"
       },
       {
-        "q": "In a troubleshooting workflow, this step tests a proposed explanation to determine whether it accounts for the observed symptoms.",
-        "a": "What is testing the hypothesis?"
+        "q": "This Canadian natural wonder is made up of three waterfalls on the border with the United States.",
+        "a": "What are Niagara Falls?"
       },
       {
-        "q": "This step involves recording findings.",
-        "a": "What is documentation?"
+        "q": "This Tanzanian mountain is Africa's highest peak.",
+        "a": "What is Mount Kilimanjaro?"
       },
       {
-        "q": "This follow-up measure addresses the underlying cause of an incident to reduce the chance that the same issue will recur.",
-        "a": "What is preventive action?"
+        "q": "This French Riviera city hosts a famous annual international film festival.",
+        "a": "What is Cannes?"
       }
     ]
   },
   {
-    "name": "Wireless Networking",
+    "name": "VIPs Around the World",
     "questions": [
       {
-        "q": "This product can operate at 2.4, 5, and 6GHz.",
-        "a": "What is Wi-Fi?"
+        "q": "This VIP is a Network Security Architect living in Denmark and working with a provider serving the Nordic and Baltic regions.",
+        "a": "Who is Andreas Foerby?"
       },
       {
-        "q": "This device broadcasts a wireless signal to which endpoints connect.",
-        "a": "What is an access point?"
+        "q": "This VIP is a Network and Security Engineer living in Switzerland and has worked across five countries and several industries.",
+        "a": "Who is Bruno?"
       },
       {
-        "q": "This identifier names a wireless network.",
-        "a": "What is SSID?"
+        "q": "This VIP is a Network Engineer and Solutions Architect at a leading German IT service provider.",
+        "a": "Who is Christian Kellerer?"
       },
       {
-        "q": "This standard provides faster speeds than 802.11n.",
-        "a": "What is 802.11ac or 802.11ax or 802.11be?"
+        "q": "This VIP is a Senior Network Architect based in Sweden and works at Conscia Netsafe.",
+        "a": "Who is Daniel Dib?"
       },
       {
-        "q": "This security protocol replaced WPA2 with stronger encryption.",
-        "a": "What is WPA3?"
+        "q": "This VIP is a Systems Engineer based in Italy who specializes in campus and data center infrastructure.",
+        "a": "Who is Riccardo Nalesso?"
       }
     ]
   },
   {
-    "name": "Cisco Tools and Platforms",
+    "name": "Celebrity Nicknames",
     "questions": [
       {
-        "q": "This Cisco network simulation platform lets learners build and run virtual network topologies using virtual Cisco images.",
-        "a": "What is Cisco Modeling Labs?"
+        "q": "This singer is widely known as the 'Queen of Pop'.",
+        "a": "Who is Madonna?"
       },
       {
-        "q": "This platform hosts Cisco certifications and training resources.",
-        "a": "What is the Cisco Learning Network?"
+        "q": "This boxer was nicknamed 'The Greatest' and famously said he 'floated like a butterfly'.",
+        "a": "Who is Muhammad Ali?"
       },
       {
-        "q": "This Cisco tool provides centralized enterprise device management.",
-        "a": "What is Cisco Catalyst Center?"
+        "q": "This singer was known as the 'Man in Black'.",
+        "a": "Who is Johnny Cash?"
       },
       {
-        "q": "This Cisco platform provides cloud-based security services.",
-        "a": "What is Security Cloud Control?"
+        "q": "This basketball legend was nicknamed 'Black Mamba'.",
+        "a": "Who is Kobe Bryant?"
       },
       {
-        "q": "This unified, cloud-delivered platform correlates telemetry across network, endpoint, cloud, and email to detect and respond to advanced threats faster than isolated security tools.",
-        "a": "What is Cisco XDR?"
+        "q": "This singer was known as the 'Material Girl' and released a hit with that title.",
+        "a": "Who is Madonna?"
       }
     ]
   }

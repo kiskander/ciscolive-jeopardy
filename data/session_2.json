@@ -7,15 +7,15 @@
         "a": "What is YANG?"
       },
       {
-        "q": "When using RESTCONF (RFC 8040) to modify a specific OSPF area ID within a YANG-modeled configuration, this HTTP method is used to merge the change into the existing data store without replacing the entire OSPF container.",
+        "q": "This RESTCONF (RFC 8040) HTTP method merges a change to a specific OSPF area ID into the existing data store without replacing the entire OSPF container.",
         "a": "What is PATCH?"
       },
       {
-        "q": "To prevent a Python automation script from hanging indefinitely when a network controller is unresponsive, this specific parameter should be included in every 'requests' library call to define a maximum wait time for a server response.",
+        "q": "This parameter in each Python 'requests' library call defines a maximum wait time for a server response and prevents the script from hanging indefinitely.",
         "a": "What is timeout?"
       },
       {
-        "q": "This Ansible command-line flag, often used alongside check mode, provides a side-by-side comparison of the current device configuration versus the proposed changes before they are committed to the network device.",
+        "q": "When an Ansible playbook runs in check mode, this command-line flag displays differences between the current configuration and the proposed changes.",
         "a": "What is diff?"
       },
       {
@@ -25,77 +25,77 @@
     ]
   },
   {
-    "name": "Infrastructure as Code",
+    "name": "Around the World",
     "questions": [
       {
-        "q": "An engineer needs to undo a commit that has already been pushed to a shared remote repository. To avoid rewriting history and causing issues for other team members, they use this command to create a new 'inverse' commit.",
-        "a": "What is git revert?"
+        "q": "This European city is home to the Eiffel Tower.",
+        "a": "What is Paris?"
       },
       {
-        "q": "A business requirement states that the automation system must never 'guess' the status of the network; it must only push configurations that match a central database. In this architecture, the database is serving as the...",
-        "a": "What is the Source of Truth (SoT)?"
+        "q": "This country is home to the ancient city of Petra.",
+        "a": "What is Jordan?"
       },
       {
-        "q": "To move the HEAD of a local repository back to a previous commit and completely discard all uncommitted changes in the working directory, an engineer would use this command with a specific flag.",
-        "a": "What is git reset --hard?"
+        "q": "This South American country is famous for the Amazon rainforest and the city of Rio de Janeiro.",
+        "a": "What is Brazil?"
       },
       {
-        "q": "In a GitLab CI/CD pipeline, this specific stage is responsible for running operational state checks (e.g., 'show ip ospf neighbor') to confirm that the network reached the desired state after the configuration was applied.",
-        "a": "What is the validation stage?"
+        "q": "This Japanese city was the first to host the Summer Olympics in Asia, in 1964.",
+        "a": "What is Tokyo?"
       },
       {
-        "q": "A YANG 'container' named 'system' contains a 'leaf' named 'hostname'. When representing this in YAML for an automation tool, the 'hostname' would be indented under 'system' and separated from its value by this character.",
-        "a": "What is a colon (: )?"
+        "q": "This African country is home to the Great Pyramid of Giza.",
+        "a": "What is Egypt?"
       }
     ]
   },
   {
-    "name": "Operations",
+    "name": "VIP Journeys & Fun Facts",
     "questions": [
       {
-        "q": "In a Python automation script, this specific class from the 'logging.handlers' module is used to direct log messages to a remote server using the standard UNIX logging protocol, typically over UDP port 514.",
-        "a": "What is SysLogHandler?"
+        "q": "This VIP began his IT journey with BASIC and Pascal programming before moving into networking and earning expert-level certifications.",
+        "a": "Who is Sergey?"
       },
       {
-        "q": "In a Model-Driven Telemetry 'Dial-In' session, where the collector initiates the connection and the network device acts as the server, this XML-based protocol is used to establish and manage the subscription.",
-        "a": "What is NETCONF?"
+        "q": "This VIP enjoys technology, music, travel, red wine, scuba diving, and martial arts outside of work.",
+        "a": "Who is Elliot?"
       },
       {
-        "q": "To prevent a Python script from attempting to configure an invalid network segment, an engineer implements this specific logic to ensure that a user-provided VLAN ID is an integer strictly within the range of 1 to 4094.",
-        "a": "What is Input Validation?"
+        "q": "This VIP's career path included work as a programmer, database manager, and network administrator before he focused on teaching networking and Networking Academy students.",
+        "a": "Who is Luny?"
       },
       {
-        "q": "After a configuration change, an engineer has two snapshots of the network state. To programmatically identify exactly which OSPF neighbors were lost or which routes were modified, they would execute this specific pyATS CLI tool.",
-        "a": "What is pyats diff?"
+        "q": "This VIP is based in Singapore, works in technical design and solution sales engineering, and enjoys reading, studying, playing guitar, and exercising.",
+        "a": "Who is Slim?"
       },
       {
-        "q": "To ensure 'Non-Repudiation' and security in a network automation solution, an engineer configures the system to use these specific digital credentials, which are signed by a trusted third party to verify the identity of the automation server.",
-        "a": "What are CA-Signed Certificates?"
+        "q": "This VIP is known for sharing network playroom videos and online learning content, and actively answers networking questions in the community.",
+        "a": "Who is Riikka Sihvonen?"
       }
     ]
   },
   {
-    "name": "AI in Automation",
+    "name": "Foodie Favorites",
     "questions": [
       {
-        "q": "When an AI agent provides a response that is grammatically correct and technically plausible but contains non-existent CLI commands or incorrect logic, the recommendation is suffering from this specific phenomenon.",
-        "a": "What is a Hallucination?"
+        "q": "This Italian dish layers pasta with sauce, cheese, and often meat or vegetables.",
+        "a": "What is lasagna?"
       },
       {
-        "q": "This client/server method allows AI models to safely execute local Python code for network analysis.",
-        "a": "What is Model Context Protocol (MCP)?"
+        "q": "This Japanese dish features vinegared rice commonly paired with seafood or vegetables.",
+        "a": "What is sushi?"
       },
       {
-        "q": "To objectively measure the accuracy of an AI's troubleshooting advice, an engineer compares the AI's output against a verified dataset of known issues and their verified solutions, which is referred to as this.",
-        "a": "What is the Ground Truth?"
+        "q": "This Mexican dish is typically made with a folded tortilla filled with ingredients such as meat, beans, or vegetables.",
+        "a": "What is a taco?"
       },
       {
-        "q": "Before trusting an AI-generated configuration change, a professional automation workflow uses this specific 'Operations' tool to simulate the change in a virtual environment and verify that the resulting network state matches the intended outcome.",
-        "a": "What is Cisco Modeling Labs (CML) or pyATS?"
+        "q": "This French pastry is known for its buttery, flaky layers and crescent shape.",
+        "a": "What is a croissant?"
       },
       {
-        "q": "This specific MCP server component acts as the 'bridge' to a specific Cisco API.",
-        "a": "What is a Tool (or Resource)?"
+        "q": "This frozen dessert is traditionally made from milk or cream, sugar, and flavourings.",
+        "a": "What is ice cream?"
       }
     ]
   }

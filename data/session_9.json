@@ -25,27 +25,27 @@
     ]
   },
   {
-    "name": "General Networking",
+    "name": "Melbourne Must-Knows",
     "questions": [
       {
-        "q": "This network device forwards packets between different IP networks using routing tables.",
-        "a": "What is a router?"
+        "q": "This Melbourne landmark is a major arts and cultural precinct on the south bank of the Yarra River, recognizable by its spire.",
+        "a": "What is the Arts Centre Melbourne?"
       },
       {
-        "q": "This network device forwards Ethernet frames using MAC addresses and operates at Layer 2 of the OSI model.",
-        "a": "What is a switch?"
+        "q": "This Melbourne market, established in the 19th century, is famous for fresh produce, specialty foods, and its lively atmosphere.",
+        "a": "What is Queen Victoria Market?"
       },
       {
-        "q": "This reference model divides network communication into seven distinct layers, from the Physical layer to the Application layer.",
-        "a": "What is the OSI model?"
+        "q": "This annual horse race is known as 'the race that stops a nation' and takes place at Flemington Racecourse.",
+        "a": "What is the Melbourne Cup?"
       },
       {
-        "q": "This OSI layer handles data encryption, decryption, compression, and translation between data formats.",
-        "a": "What is the Presentation layer (Layer 6)?"
+        "q": "This Melbourne beachside suburb is known for its colourful bathing boxes along the foreshore.",
+        "a": "What is Brighton?"
       },
       {
-        "q": "This OSI layer establishes, maintains, and terminates communication sessions between applications.",
-        "a": "What is the Session layer (Layer 5)?"
+        "q": "This Melbourne laneway is famous for street art and is a popular spot for visitors and photographers.",
+        "a": "What is Hosier Lane?"
       }
     ]
   },
@@ -61,7 +61,7 @@
         "a": "What is phishing?"
       },
       {
-        "q": "This policy enforces strong credential requirements.",
+        "q": "This security policy defines rules for password length, complexity, reuse, and other credential requirements.",
         "a": "What is a password policy?"
       },
       {
@@ -75,27 +75,27 @@
     ]
   },
   {
-    "name": "CCNA",
+    "name": "Musical Instruments",
     "questions": [
       {
-        "q": "This Cisco certification exam tests foundational knowledge of network access, IP connectivity, IP services, security fundamentals, and network automation.",
-        "a": "What is the Cisco Certified Network Associate (CCNA) exam?"
+        "q": "This brass instrument has a slide that changes pitch and is common in jazz and orchestral music.",
+        "a": "What is a trombone?"
       },
       {
-        "q": "This Cisco IOS command displays the device’s active configuration, including configured interface settings.",
-        "a": "What is show running-config?"
+        "q": "This string instrument is played with a bow and is the smallest and highest-pitched member of the standard orchestral string family.",
+        "a": "What is a violin?"
       },
       {
-        "q": "This logical Layer 3 address identifies a device on an IP network and enables routing between networks.",
-        "a": "What is an IP address?"
+        "q": "This percussion instrument has black and white keys and is often used to teach music theory.",
+        "a": "What is a piano?"
       },
       {
-        "q": "This transport-layer protocol sends datagrams without establishing a connection or guaranteeing delivery.",
-        "a": "What is the User Datagram Protocol (UDP)?"
+        "q": "This woodwind instrument commonly uses a single reed and is often heard in jazz bands.",
+        "a": "What is a saxophone?"
       },
       {
-        "q": "This networking technique translates private IP addresses into public IP addresses to enable communication with external networks.",
-        "a": "What is Network Address Translation (NAT)?"
+        "q": "This string instrument typically has six strings and is widely used in rock, pop, and folk music.",
+        "a": "What is a guitar?"
       }
     ]
   }

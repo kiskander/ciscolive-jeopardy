@@ -1,76 +1,76 @@
 [
   {
-    "name": "Network Automation",
+    "name": "Meet the 2026 VIPs",
     "questions": [
       {
-        "q": "This fundamental property of both Ansible and Terraform ensures that re-running a configuration script against a device already in the desired state results in no changes, preventing configuration drift.",
-        "a": "What is Idempotency?"
+        "q": "This Denmark-based network security architect holds the CCIE Security certification and encourages engineers to build home labs and learn by doing.",
+        "a": "Who is Andreas Foerby?"
       },
       {
-        "q": "In a RESTCONF (RFC 8040) implementation, which HTTP header must be set to 'application/yang-data+json' to ensure the payload is correctly mapped to the underlying YANG model?",
-        "a": "What is the Content-Type header?"
+        "q": "This Network and Security Engineer focuses on Cisco enterprise networking, Cisco ISE, Secure Firewall, VPN architectures, and network automation.",
+        "a": "Who is Brahim?"
       },
       {
-        "q": "This Terraform command applies changes to reach the desired state, effectively 'pushing' config.",
-        "a": "What is terraform apply?"
+        "q": "This Network Engineer and Solutions Architect is active in the Cisco Learning Network's CCNA, Enterprise, Cisco Modeling Labs, and recertification communities.",
+        "a": "Who is Christian Kellerer?"
       },
       {
-        "q": "This Ansible module applies a specific configuration line exists in a Cisco IOS XE device's running config.",
-        "a": "What is ios_config?"
+        "q": "This 2026 VIP is a Technology Architect for Network Automation at DSV A/S and holds the CCIE Automation certification.",
+        "a": "Who is Mateusz?"
       },
       {
-        "q": "An enterprise requires a solution where network devices independently pull their configuration from a central Git repository and apply it locally. This specific automation model is chosen to ensure continuous compliance and high scalability without a central push-based controller.",
-        "a": "What is a Pull-based (or GitOps) model?"
+        "q": "This Senior Network Engineer and Network Architect based in Italy holds the CCIE Enterprise Infrastructure certification and shares advice on troubleshooting and certification paths.",
+        "a": "Who is Simone Musmeci?"
       }
     ]
   },
   {
-    "name": "Infrastructure as Code",
+    "name": "Melbourne, Mate!",
     "questions": [
       {
-        "q": "This Git command is used to switch between different branches in a repository, allowing an engineer to move from a 'development' branch to a 'production' branch to review code.",
-        "a": "What is git checkout?"
+        "q": "This Australian city is famous for its laneways, street art, coffee culture, and the Yarra River.",
+        "a": "What is Melbourne?"
       },
       {
-        "q": "In a Docker Compose file, this specific parameter is used to map a local directory on the host machine to a directory inside the container, ensuring that configuration data or 'Source of Truth' files remain persistent even if the container is restarted.",
-        "a": "What is a local directory or data store?"
+        "q": "Held annually at Melbourne Park, this Grand Slam tennis tournament opens the tennis calendar each January.",
+        "a": "What is the Australian Open?"
       },
       {
-        "q": "In a GitLab CI/CD pipeline, this specific stage is responsible for preparing the environment, such as installing necessary Python libraries or pulling Docker images, before any tests or deployments are executed.",
-        "a": "What is the build stage?"
+        "q": "This iconic Melbourne sports ground hosts the AFL Grand Final and major cricket matches.",
+        "a": "What is the Melbourne Cricket Ground (the MCG)?"
       },
       {
-        "q": "A critical bug fix for a production ACL was accidentally committed to a 'testing' branch that contains many other unfinished features. To move only that specific fix into the 'main' branch without merging the rest of the testing code, you would use this command.",
-        "a": "What is git cherry-pick?"
+        "q": "This scenic coastal route southwest of Melbourne is famous for the Twelve Apostles rock formations.",
+        "a": "What is the Great Ocean Road?"
       },
       {
-        "q": "This approach is considered best practice by ensuring that all stages in a CI/CD pipeline use the exact same software environment and library versions.",
-        "a": "What is a Custom Docker Image (or a 'Single Source of Image')?"
+        "q": "This beloved Melbourne tram route travels through the city centre and is free to ride within the Free Tram Zone.",
+        "a": "What is the City Circle tram?"
       }
     ]
   },
   {
-    "name": "Operations",
+    "name": "Name That Tune",
     "questions": [
       {
-        "q": "An automation team needs to send real-time, human-readable notifications to a Cisco Webex or Slack channel whenever a critical deployment fails. Which specific logging destination method is most appropriate for this requirement?",
-        "a": "What is a Webhook?"
+        "q": "This Swedish pop group scored global hits with 'Dancing Queen' and 'Mamma Mia'.",
+        "a": "Who is ABBA?"
       },
       {
-        "q": "In Model-Driven Telemetry, this specific protocol is commonly used as the transport layer for 'Dial-Out' telemetry because it supports HTTP/2, bidirectional streaming, and efficient binary encoding.",
-        "a": "What is gRPC?"
+        "q": "Known as the King of Pop, this singer released the album 'Thriller'.",
+        "a": "Who is Michael Jackson?"
       },
       {
-        "q": "To prevent 'Credential Leakage' in a public Git repository, an engineer uses this specific secure coding practice to ensure that API keys and passwords are never hardcoded in the script, but are instead retrieved dynamically at runtime.",
-        "a": "What are Environment Variables or Secret Management?"
+        "q": "This British band recorded 'Hey Jude' and 'Let It Be'.",
+        "a": "Who are The Beatles?"
       },
       {
-        "q": "In a pyATS-driven change validation workflow, an engineer uses this specific CLI command to capture the 'Operational State' of a network feature, such as the interface status, into a structured JSON file for later comparison.",
-        "a": "What is pyats learn?"
+        "q": "This singer-songwriter is known for the albums '1989' and 'Midnights'.",
+        "a": "Who is Taylor Swift?"
       },
       {
-        "q": "To secure a network controller's API, an engineer must generate this specific file, which contains the organization's public key and identity information, to be sent to a Certificate Authority (CA) for signing.",
-        "a": "What is a Certificate Signing Request (CSR)?"
+        "q": "This Jamaican musician helped bring reggae to worldwide audiences with songs such as 'One Love'.",
+        "a": "Who is Bob Marley?"
       }
     ]
   },
@@ -78,15 +78,15 @@
     "name": "AI in Automation",
     "questions": [
       {
-        "q": "To provide a conversational agent with real-time OSPF neighbor counts without exposing the entire database, an engineer builds this specific server type, which acts as a standardized interface between the LLM and the network API.",
+        "q": "To let an AI assistant request live OSPF neighbor counts through a standardized interface instead of directly accessing the network API, an engineer builds this type of server.",
         "a": "What is an MCP (Model Context Protocol) Server?"
       },
       {
-        "q": "This specific architectural pattern is used to 'ground' a conversational agent's responses in real-world network data by fetching relevant logs or configs before the LLM generates an answer, preventing hallucinations.",
+        "q": "This AI pattern retrieves relevant documents, logs, or configurations and supplies them to a language model before it answers, grounding the response in retrieved information.",
         "a": "What is RAG (Retrieval-Augmented Generation)?"
       },
       {
-        "q": "In an MCP architecture, this specific component is the 'host' application (like a CLI tool or a web app) that actually initiates the connection to the MCP server to provide context to the LLM.",
+        "q": "In the Model Context Protocol architecture, this component is the application-side connector that establishes a session with an MCP server and exposes its tools or resources to the host application.",
         "a": "What is the MCP Client?"
       },
       {

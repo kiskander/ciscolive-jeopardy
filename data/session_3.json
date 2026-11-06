@@ -11,7 +11,7 @@
         "a": "What is a Dictionary?"
       },
       {
-        "q": "This REST verb is used to replace an entire resource with a new version.",
+        "q": "This HTTP method replaces a resource representation at the target URI with the representation supplied in the request.",
         "a": "What is PUT?"
       },
       {
@@ -19,83 +19,83 @@
         "a": "What is ncclient?"
       },
       {
-        "q": "This header in an HTTP request tells the server what format the client expects (e.g., application/yang-data+json).",
+        "q": "This HTTP request header tells the server which response media type the client can process, such as application/yang-data+json.",
         "a": "What is the Accept header?"
       }
     ]
   },
   {
-    "name": "Infrastructure as Code",
+    "name": "Movie Night",
     "questions": [
       {
-        "q": "This Git command moves changes from your 'Staging' area to the local repository.",
-        "a": "What is git commit?"
+        "q": "In this 1997 film, Jack and Rose fall in love aboard a ship that strikes an iceberg.",
+        "a": "What is Titanic?"
       },
       {
-        "q": "This Terraform block is used to define the specific provider version, like 'cisco-devnet/iosxe'.",
-        "a": "What is the map or block?"
+        "q": "This film franchise features a school of witchcraft and wizardry called Hogwarts.",
+        "a": "What is Harry Potter?"
       },
       {
-        "q": "This Docker instruction in a Dockerfile defines the base image to start from.",
-        "a": "What is FROM?"
+        "q": "In this animated Disney film, sisters Elsa and Anna live in the kingdom of Arendelle.",
+        "a": "What is Frozen?"
       },
       {
-        "q": "This Ansible file maps 'logical' names to the actual IP addresses of your network devices.",
-        "a": "What is the Inventory file?"
+        "q": "This 1977 science-fiction film introduced audiences to Luke Skywalker and Darth Vader.",
+        "a": "What is Star Wars?"
       },
       {
-        "q": "This Git action combines the history of two branches.",
-        "a": "What is a Merge?"
+        "q": "This 1994 Disney animated film follows Simba on his journey to become king.",
+        "a": "What is The Lion King?"
       }
     ]
   },
   {
-    "name": "Operations",
+    "name": "VIP Expertise",
     "questions": [
       {
-        "q": "This telemetry transport protocol uses Google's binary serialization for high speed.",
-        "a": "What is gRPC?"
+        "q": "This long-time networking educator writes books, creates videos, and teaches courses about computer networking.",
+        "a": "Who is Wendell Odom?"
       },
       {
-        "q": "This pyATS component is the 'engine' that handles device connections and command execution.",
-        "a": "What is the Unicon?"
+        "q": "This VIP has CCIE and CCDE credentials and works on scalable, modular, highly available network designs.",
+        "a": "Who is Daniel Dib?"
       },
       {
-        "q": "This is the process of comparing a device's current config to its 'Golden' baseline.",
-        "a": "What is Drift Detection?"
+        "q": "This network specialist focuses on Cisco routing and switching and contributes answers, technical conversations, and learning content to the community.",
+        "a": "Who is Riikka Sihvonen?"
       },
       {
-        "q": "This software-development practice frequently merges developers' changes into a shared repository and runs automated builds and tests.",
-        "a": "What is Continuous Integration?"
+        "q": "This VIP has extensive experience in Cisco security, including Cisco ISE, Secure Firewall, VPN architectures, and identity-driven security models.",
+        "a": "Who is Brahim?"
       },
       {
-        "q": "This type of webhook payload often includes a 'Secret' to verify the sender's identity.",
-        "a": "What is an HMAC (or Signature Verification)?"
+        "q": "This VIP's areas of expertise include enterprise infrastructure, campus and data center design, and customer-focused systems engineering.",
+        "a": "Who is Riccardo Nalesso?"
       }
     ]
   },
   {
-    "name": "AI in Automation",
+    "name": "90s Throwback",
     "questions": [
       {
-        "q": "This process involves using an LLM to generate code, which is then reviewed by a human engineer.",
-        "a": "What is AI-Assisted Development?"
+        "q": "This handheld virtual pet toy became a worldwide craze after launching in Japan in 1996.",
+        "a": "What is a Tamagotchi?"
       },
       {
-        "q": "This specific protocol eliminates the need to rewrite custom API integrations for every different LLM.",
-        "a": "What is Model Context Protocol (MCP)?"
+        "q": "This sitcom follows six friends living in New York City, including Ross, Rachel, Monica, Chandler, Joey, and Phoebe.",
+        "a": "What is Friends?"
       },
       {
-        "q": "This term refers to an AI's tendency to repeat the same incorrect network command if prompted multiple times.",
-        "a": "What is Deterministic Error?"
+        "q": "This girl group released the hit song 'Wannabe' in 1996.",
+        "a": "Who are the Spice Girls?"
       },
       {
-        "q": "This 'Fast' Python framework is the blueprint-recommended way to build MCP-compliant servers.",
-        "a": "What is FastMCP?"
+        "q": "This Nintendo game series features a plumber named Mario who often rescues Princess Peach.",
+        "a": "What is Super Mario?"
       },
       {
-        "q": "This AI role acts as an 'orchestrator' that decides which network tool to call based on a user's request.",
-        "a": "What is an AI Agent?"
+        "q": "This 1997 song by Aqua features a colourful, bubblegum-pop world and the lyric-inspired title 'Life in Plastic'.",
+        "a": "What is 'Barbie Girl'?"
       }
     ]
   }

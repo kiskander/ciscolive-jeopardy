@@ -19,7 +19,7 @@
         "a": "What is BGP?"
       },
       {
-        "q": "This process selects the best route when multiple routes exist.",
+        "q": "A router uses this process to determine which of several candidate routes to the same destination is installed or preferred, based on route preference and metrics.",
         "a": "What is route selection?"
       }
     ]
@@ -36,66 +36,66 @@
         "a": "What is traceroute?"
       },
       {
-        "q": "This protocol collects statistics from network devices.",
+        "q": "This network-management protocol lets monitoring systems poll counters and status from managed devices and receive event notifications.",
         "a": "What is SNMP?"
       },
       {
-        "q": "This type of tool captures packets from a network interface so an engineer can inspect headers, protocols, and traffic exchanges.",
+        "q": "This diagnostic utility records packets from a network interface for detailed inspection of protocol headers and traffic exchanges.",
         "a": "What is a packet capturer?"
       },
       {
-        "q": "This performance metric measures the time it takes for a packet to travel from source to destination.",
+        "q": "This network performance metric measures the delay a packet experiences while traveling from a source to a destination.",
         "a": "What is latency?"
       }
     ]
   },
   {
-    "name": "Cisco Learning Network VIP Members",
+    "name": "Australian Icons",
     "questions": [
       {
-        "q": "These members are recognized for helping others in the community.",
-        "a": "What are VIP members?"
+        "q": "This Australian singer is known for the global hit 'Can't Get You Out of My Head'.",
+        "a": "Who is Kylie Minogue?"
       },
       {
-        "q": "This activity often earns recognition points in the community.",
-        "a": "What is answering questions?"
+        "q": "This Australian actor played Wolverine in the X-Men film series.",
+        "a": "Who is Hugh Jackman?"
       },
       {
-        "q": "This type of content shares knowledge and guidance with other learners.",
-        "a": "What is a discussion post?"
+        "q": "This Australian landmark is a performing arts venue famous for its sail-shaped roof design.",
+        "a": "What is the Sydney Opera House?"
       },
       {
-        "q": "This recognition highlights consistent contributions and leadership.",
-        "a": "What is community recognition?"
+        "q": "This Australian wildlife icon is a monotreme that lays eggs and has a duck-like bill.",
+        "a": "What is a platypus?"
       },
       {
-        "q": "This role helps guide conversations and support learners.",
-        "a": "What is a mentor?"
+        "q": "This Australian actor starred as the Joker in 'The Dark Knight' and won a posthumous Academy Award for the role.",
+        "a": "Who is Heath Ledger?"
       }
     ]
   },
   {
-    "name": "Security Operations",
+    "name": "Finish the Lyric Title",
     "questions": [
       {
-        "q": "This team monitors security alerts and incidents.",
-        "a": "What is a Security Operations Center?"
+        "q": "Queen's song about a bicycle has this three-word title.",
+        "a": "What is 'Bicycle Race'?"
       },
       {
-        "q": "This type of log records authentication events such as successful and failed user sign-ins.",
-        "a": "What is an authentication log?"
+        "q": "The Beatles sing about wanting to hold your hand in this song title.",
+        "a": "What is 'I Want to Hold Your Hand'?"
       },
       {
-        "q": "This tool aggregates logs from multiple systems.",
-        "a": "What is SIEM?"
+        "q": "Adele's hit about a past relationship has this one-word title meaning a greeting from the past.",
+        "a": "What is 'Hello'?"
       },
       {
-        "q": "This structured security process identifies, analyzes, contains, and responds to a suspected or confirmed security event.",
-        "a": "What is incident response?"
+        "q": "The title of this Bon Jovi anthem urges listeners not to give up on a feeling.",
+        "a": "What is 'Livin' on a Prayer'?"
       },
       {
-        "q": "In incident response, this phase returns affected systems and services to normal operation after containment and eradication.",
-        "a": "What is recovery?"
+        "q": "This song by Journey urges listeners to keep believing and not stop doing so.",
+        "a": "What is 'Don't Stop Believin''?"
       }
     ]
   }

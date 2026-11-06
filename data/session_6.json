@@ -1,51 +1,51 @@
 [
   {
-    "name": "IPv6",
+    "name": "Milestones & Recognition",
     "questions": [
       {
-        "q": "This IPv6 address type begins with FE80.",
-        "a": "What is a link-local address?"
+        "q": "This VIP was the first person from Peru to receive Cisco Learning Network VIP recognition, in 2019.",
+        "a": "Who is Percy Luis Venturo Huares?"
       },
       {
-        "q": "This IPv6 feature allows automatic address configuration without DHCP.",
-        "a": "What is SLAAC?"
+        "q": "This VIP earned CCIE Enterprise Infrastructure at age 21 after starting with CCNA materials through an Italian Cisco Academy.",
+        "a": "Who is Riccardo Nalesso?"
       },
       {
-        "q": "This IPv6 address type is routable on the internet.",
-        "a": "What is a global unicast address?"
+        "q": "This VIP received the Cisco Learning Network Spotlight Technical Excellence Award and was recognized as a CLN Ambassador.",
+        "a": "Who is Elvis Chong?"
       },
       {
-        "q": "This field in IPv6 replaces the TTL field in IPv4.",
-        "a": "What is Hop Limit?"
+        "q": "This VIP received the Cisco Community Spotlight Technical Excellence Award in 2019 and the Cisco Instructor Excellence Award in 2020.",
+        "a": "Who is Yasser Auda?"
       },
       {
-        "q": "This transition technology tunnels IPv6 traffic over IPv4 networks.",
-        "a": "What is 6to4 tunneling?"
+        "q": "This VIP has been recognized as a Cisco Learning Network VIP continuously from 2021 through 2026 and is known for networking books, videos, and courses.",
+        "a": "Who is Wendell Odom?"
       }
     ]
   },
   {
-    "name": "Cloud and Virtualization",
+    "name": "Animals Around Us",
     "questions": [
       {
-        "q": "This model provides virtual machines over the internet.",
-        "a": "What is IaaS?"
+        "q": "This Australian marsupial carries its young in a pouch and is known for hopping on powerful hind legs.",
+        "a": "What is a kangaroo?"
       },
       {
-        "q": "In this cloud service model, customers use a provider-hosted application through a browser without managing the underlying infrastructure.",
-        "a": "What is SaaS?"
+        "q": "This black-and-white Australian bird is known for swooping during breeding season.",
+        "a": "What is a magpie?"
       },
       {
-        "q": "This technology uses a hypervisor to run multiple isolated virtual machines on the same physical server.",
-        "a": "What is virtualization?"
+        "q": "This large flightless bird is native to Australia and is the second-tallest living bird.",
+        "a": "What is an emu?"
       },
       {
-        "q": "This cloud deployment model is dedicated to a single organization.",
-        "a": "What is a private cloud?"
+        "q": "This marine mammal is famous for its playful behaviour and use of echolocation.",
+        "a": "What is a dolphin?"
       },
       {
-        "q": "This OS-level approach packages an application and its dependencies into lightweight, portable units that share the host operating-system kernel.",
-        "a": "What is containerization?"
+        "q": "This slow-moving Australian marsupial eats eucalyptus leaves and spends much of its time in trees.",
+        "a": "What is a koala?"
       }
     ]
   },
@@ -57,45 +57,45 @@
         "a": "What is ARP?"
       },
       {
-        "q": "This protocol provides encrypted command-line access to remote network devices and commonly uses TCP port 22.",
+        "q": "This protocol provides an encrypted remote terminal and command-line session, authenticates the remote endpoint, and commonly uses TCP port 22.",
         "a": "What is SSH?"
       },
       {
-        "q": "This protocol lets a network management station query device counters and receive notifications using managed objects, commonly over UDP ports 161 and 162.",
+        "q": "This network-management protocol uses a manager/agent model and a Management Information Base (MIB); managers commonly query agents on UDP 161 and receive traps on UDP 162.",
         "a": "What is SNMP?"
       },
       {
-        "q": "This Cisco-proprietary Layer 2 discovery protocol advertises device identity, capabilities, and connected-interface details to directly connected Cisco neighbors.",
+        "q": "This Cisco-proprietary Layer 2 protocol advertises a device's identity, capabilities, and port information to directly connected Cisco devices.",
         "a": "What is CDP?"
       },
       {
-        "q": "This vendor-neutral Layer 2 discovery protocol allows directly connected devices from different manufacturers to advertise identity and port information.",
+        "q": "This IEEE-standard, vendor-neutral Layer 2 protocol lets directly connected devices advertise identity and port information to neighboring devices.",
         "a": "What is LLDP?"
       }
     ]
   },
   {
-    "name": "CCNA Automation",
+    "name": "TV Theme Songs",
     "questions": [
       {
-        "q": "This language is commonly used to automate network tasks.",
-        "a": "What is Python?"
+        "q": "This sitcom's theme song includes the line 'I'll be there for you' and is performed by The Rembrandts.",
+        "a": "What is Friends?"
       },
       {
-        "q": "This lightweight API data format represents information as key-value pairs and arrays, using braces and square brackets.",
-        "a": "What is JSON?"
+        "q": "This fantasy series features the opening theme 'Main Title' by composer Ramin Djawadi.",
+        "a": "What is Game of Thrones?"
       },
       {
-        "q": "This XML-based network management protocol lets automation tools retrieve and manage configuration data through structured RPC operations.",
-        "a": "What is NETCONF?"
+        "q": "This animated sitcom's theme begins with a chalkboard gag and a couch gag in its opening sequence.",
+        "a": "What is The Simpsons?"
       },
       {
-        "q": "This language is commonly used to structure API responses.",
-        "a": "What is JSON?"
+        "q": "This science-fiction series features the theme 'Where Everybody Knows Your Name'—the theme actually belongs to a Boston bar sitcom.",
+        "a": "What is Cheers?"
       },
       {
-        "q": "This model-driven interface uses HTTP requests for network automation.",
-        "a": "What is RESTCONF?"
+        "q": "This mystery series set in a fictional town features the eerie theme music of 'Laura Palmer's Theme' by Angelo Badalamenti.",
+        "a": "What is Twin Peaks?"
       }
     ]
   }

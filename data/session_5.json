@@ -1,26 +1,26 @@
 [
   {
-    "name": "VLANs and Switching",
+    "name": "Board Games & Party Games",
     "questions": [
       {
-        "q": "This VLAN type carries user traffic.",
-        "a": "What is a data VLAN?"
+        "q": "In this property-trading board game, players buy streets, build houses and hotels, and try not to go bankrupt.",
+        "a": "What is Monopoly?"
       },
       {
-        "q": "This command sets a port to trunk mode.",
-        "a": "What is switchport mode trunk?"
+        "q": "This word game challenges players to create words from letter tiles on a board.",
+        "a": "What is Scrabble?"
       },
       {
-        "q": "This VLAN is used to carry management traffic.",
-        "a": "What is the management VLAN?"
+        "q": "In this party game, players act out words or phrases without speaking while teammates guess.",
+        "a": "What are charades?"
       },
       {
-        "q": "This protocol advertises VLAN information between switches.",
-        "a": "What is VTP?"
+        "q": "This classic guessing game asks players to identify a hidden person or character by asking yes-or-no questions.",
+        "a": "What is Guess Who?"
       },
       {
-        "q": "This feature allows multiple physical links to act as one logical link.",
-        "a": "What is EtherChannel or PortChannel?"
+        "q": "In this card game, players try to get rid of all their cards by matching colour or number.",
+        "a": "What is UNO?"
       }
     ]
   },
@@ -28,24 +28,24 @@
     "name": "Network Services",
     "questions": [
       {
-        "q": "This naming service translates domain names such as example.com into IP addresses.",
+        "q": "This distributed naming service translates hostnames such as example.com into IP addresses that clients use to reach network resources.",
         "a": "What is DNS?"
       },
       {
-        "q": "This time-synchronization service commonly uses UDP port 123 to keep network devices' clocks aligned.",
-        "a": "What is NTP?"
+        "q": "This time-synchronization protocol commonly uses UDP port 123 to keep network devices' clocks synchronized.",
+        "a": "What is the Network Time Protocol (NTP)?"
       },
       {
         "q": "This simple secure file-transfer protocol uses SSH for encryption and authentication and typically operates over TCP port 22.",
         "a": "What is SCP?"
       },
       {
-        "q": "This protocol protects HTTP web traffic with TLS encryption and commonly uses TCP port 443.",
-        "a": "What is HTTPS?"
+        "q": "This secure web protocol uses TLS to encrypt HTTP communications and commonly operates over TCP port 443.",
+        "a": "What is Hypertext Transfer Protocol Secure (HTTPS)?"
       },
       {
-        "q": "This client-server service automatically leases IP addresses, subnet masks, default gateways, and other network settings to hosts.",
-        "a": "What is DHCP?"
+        "q": "This client-server protocol dynamically assigns IP addresses and can provide subnet masks, default gateways, and DNS server information to clients.",
+        "a": "What is the Dynamic Host Configuration Protocol (DHCP)?"
       }
     ]
   },
@@ -53,49 +53,49 @@
     "name": "Cisco Cybersecurity",
     "questions": [
       {
-        "q": "This term describes verifying a user's identity.",
+        "q": "In the AAA framework, this function verifies a user's identity using credentials such as a password, certificate, or multifactor authentication.",
         "a": "What is authentication?"
       },
       {
-        "q": "This term describes granting permissions to resources.",
+        "q": "In the AAA framework, this function determines which resources or actions an authenticated user is permitted to access.",
         "a": "What is authorization?"
       },
       {
-        "q": "This term describes tracking user activity.",
+        "q": "In the AAA framework, this function records user activity and resource usage to support auditing and accountability.",
         "a": "What is accounting?"
       },
       {
-        "q": "The combination of user identity, granting permissions, and tracking of user activity is commonly referred to as this.",
-        "a": "What is AAA?"
+        "q": "This network-access security framework combines authentication, authorization, and accounting to verify identities, control permissions, and record activity.",
+        "a": "What is AAA (Authentication, Authorization, and Accounting)?"
       },
       {
-        "q": "This attack intercepts communication between two parties.",
+        "q": "In this cyberattack, an attacker secretly intercepts communications between two parties and may modify the data exchanged without their knowledge.",
         "a": "What is a man-in-the-middle attack?"
       }
     ]
   },
   {
-    "name": "Cisco History",
+    "name": "Music Festival Anthems",
     "questions": [
       {
-        "q": "This Cisco network operating system family powers many traditional Cisco routers and switches and provides the familiar router and switch command-line interface.",
-        "a": "What is IOS?"
+        "q": "This Queen song opens with the lyrics-inspired phrase 'Is this the real life?' and shifts between ballad, opera, and rock.",
+        "a": "What is 'Bohemian Rhapsody'?"
       },
       {
-        "q": "This Cisco-hosted event brings customers, partners, and IT professionals together for technical sessions, product demonstrations, and training.",
-        "a": "What is Cisco Live?"
+        "q": "This Journey power ballad is a karaoke favourite and begins with the words 'Just a small-town girl'.",
+        "a": "What is 'Don't Stop Believin''?"
       },
       {
-        "q": "This California city in Silicon Valley is home to Cisco's global headquarters.",
-        "a": "What is San Jose?"
+        "q": "This Whitney Houston hit became an enduring anthem after appearing in the film 'The Bodyguard'.",
+        "a": "What is 'I Will Always Love You'?"
       },
       {
-        "q": "This company was founded in 1984 and is known for networking equipment.",
-        "a": "What is Cisco?"
+        "q": "This Pharrell Williams song shares its title with a feeling of joy and was featured in 'Despicable Me 2'.",
+        "a": "What is 'Happy'?"
       },
       {
-        "q": "This CEO led Cisco from 1995 to 2015.",
-        "a": "Who is John Chambers?"
+        "q": "This The Killers song is famous for the line about coming out of the cage and doing just fine.",
+        "a": "What is 'Mr. Brightside'?"
       }
     ]
   }

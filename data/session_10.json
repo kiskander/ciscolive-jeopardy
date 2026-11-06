@@ -1,51 +1,101 @@
 [
   {
-    "name": "Real-World Troubleshooting Scenarios",
+    "name": "Pop Culture Mash-Up",
     "questions": [
       {
-        "q": "This command tests IP connectivity between a source device and a destination by sending ICMP echo requests.",
-        "a": "What is ping?"
+        "q": "This animated ogre lives in a swamp and befriends a talkative donkey in a DreamWorks film series.",
+        "a": "What is Shrek?"
       },
       {
-        "q": "This OSI layer is responsible for transmitting raw bits over physical media, such as copper cables and fiber-optic connections.",
-        "a": "What is the Physical layer (Layer 1)?"
+        "q": "This fictional school is attended by characters including Hermione Granger, Ron Weasley, and Harry Potter.",
+        "a": "What is Hogwarts?"
       },
       {
-        "q": "This network configuration parameter determines which portion of an IP address identifies the network and which portion identifies the host.",
-        "a": "What is a subnet mask?"
+        "q": "This superhero from Gotham City is also known as the Dark Knight.",
+        "a": "Who is Batman?"
       },
       {
-        "q": "his Layer 2 protocol prevents switching loops by placing redundant paths into a blocking state.",
-        "a": "What is the Spanning Tree Protocol (STP)?"
+        "q": "This fantasy series features a ring that must be destroyed in the fires of Mount Doom.",
+        "a": "What is The Lord of the Rings?"
       },
       {
-        "q": "This technique divides a switched network into separate logical broadcast domains to limit broadcast traffic.",
-        "a": "What is VLAN segmentation?"
+        "q": "This doll brand became the subject of a 2023 live-action film starring Margot Robbie.",
+        "a": "What is Barbie?"
       }
     ]
   },
   {
-    "name": "Protocol Ports",
+    "name": "Famous Duos",
     "questions": [
       {
-        "q": "This unencrypted web protocol traditionally uses TCP port 80 to request and deliver web pages.",
-        "a": "What is HTTP?"
+        "q": "This fictional detective and his loyal friend share adventures in stories by Arthur Conan Doyle.",
+        "a": "Who are Sherlock Holmes and Dr. Watson?"
       },
       {
-        "q": "This encrypted web protocol commonly uses TCP port 443 to protect browser-to-server traffic with TLS.",
-        "a": "What is HTTPS?"
+        "q": "This musical duo consists of the brothers Liam and Noel Gallagher.",
+        "a": "Who are the members of Oasis?"
       },
       {
-        "q": "This encrypted remote-login protocol uses TCP port 22 by default and is also used by tools such as SCP for secure file transfer.",
-        "a": "What is SSH?"
+        "q": "This comedy duo is made up of Bud Abbott and Lou Costello.",
+        "a": "Who are Abbott and Costello?"
       },
       {
-        "q": "This name-resolution protocol uses port 53 over UDP for many queries and TCP for transfers and some responses.",
-        "a": "What is DNS?"
+        "q": "This animated pair consists of a cat who chases a clever mouse in classic cartoons.",
+        "a": "Who are Tom and Jerry?"
       },
       {
-        "q": "This network-management protocol uses UDP port 161 for queries sent from a manager to an agent.",
-        "a": "What is SNMP?"
+        "q": "This crime-fighting duo features a caped hero and his young sidekick Robin.",
+        "a": "Who are Batman and Robin?"
+      }
+    ]
+  },
+  {
+    "name": "Career Plot Twists",
+    "questions": [
+      {
+        "q": "This VIP began his IT career after taking a summer job installing network cabling while pursuing a graduate degree in Economics.",
+        "a": "Who is Bill Burnam?"
+      },
+      {
+        "q": "This VIP moved from a career in criminal defense law and worker advocacy into engineering around 2015–2016.",
+        "a": "Who is Micheline?"
+      },
+      {
+        "q": "This VIP first worked as a programmer, database manager, and network administrator before dedicating time to teaching networking and Networking Academy students.",
+        "a": "Who is Luny?"
+      },
+      {
+        "q": "This VIP transitioned from web development into networking in 2016, later earning CCIE Enterprise Infrastructure in 2024.",
+        "a": "Who is Mahmoud Manaa?"
+      },
+      {
+        "q": "This VIP discovered a passion for networking after helping an understaffed network manager while working at Orange UK.",
+        "a": "Who is Jonathan, the 2024–2026 VIP whose profile describes his move from Orange UK's support roles into networking?"
+      }
+    ]
+  },
+  {
+    "name": "Operations",
+    "questions": [
+      {
+        "q": "This telemetry transport uses HTTP/2 and commonly serializes messages with Protocol Buffers, Google's language-neutral binary format.",
+        "a": "What is gRPC?"
+      },
+      {
+        "q": "This pyATS library component provides the connection layer used to connect to network devices and execute commands.",
+        "a": "What is the Unicon?"
+      },
+      {
+        "q": "This compliance process compares a device's current configuration with an approved baseline to identify unintended differences.",
+        "a": "What is Drift Detection?"
+      },
+      {
+        "q": "This software-development practice frequently integrates code changes into a shared repository and automatically runs builds and tests to detect problems early.",
+        "a": "What is Continuous Integration?"
+      },
+      {
+        "q": "This type of webhook payload often includes a 'Secret' to verify the sender's identity.",
+        "a": "What is an HMAC (or Signature Verification)?"
       }
     ]
   }

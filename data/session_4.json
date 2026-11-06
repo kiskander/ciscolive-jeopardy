@@ -1,26 +1,26 @@
 [
   {
-    "name": "Wireless",
+    "name": "First Steps into IT",
     "questions": [
       {
-        "q": "This Wi-Fi standard, also known as Extremely High Throughput, supports operation across the 2.4 GHz, 5 GHz, and 6 GHz bands and introduces features such as Multi-Link Operation.",
-        "a": "What is 802.11be (Wi-Fi 7)?"
+        "q": "This VIP started learning computers with BASIC and Pascal before working as a PC assembly technician and moving into networking.",
+        "a": "Who is Sergey?"
       },
       {
-        "q": "This device provides wireless connectivity to clients.",
-        "a": "What is an access point?"
+        "q": "This VIP's IT journey began with a mainframe project that sparked an interest in network engineering, followed by experience in Cisco's P-TAP program in São Paulo.",
+        "a": "Who is Kelly Pack?"
       },
       {
-        "q": "This client behavior occurs when a wireless device moves between access points while maintaining connectivity to the same WLAN.",
-        "a": "What is roaming?"
+        "q": "This VIP began working in networking after earning a degree in Economics and later moving through programming, database administration, and network administration roles.",
+        "a": "Who is Luny?"
       },
       {
-        "q": "This Wi-Fi 7 feature allows a device to transmit and receive data across multiple frequency bands simultaneously to improve throughput and reduce latency.",
-        "a": "What is Multi-Link Operation (MLO)?"
+        "q": "This VIP began his professional career as a network engineer in 2015 and moved fully into network automation in 2021.",
+        "a": "Who is Mateusz?"
       },
       {
-        "q": "This Wi-Fi technology uses multiple antennas and spatial streams to serve multiple users at the same time.",
-        "a": "What is Multi-User MIMO (MU-MIMO)?"
+        "q": "This VIP started in IT as a web developer in 2010 and moved into networking in 2016.",
+        "a": "Who is Mahmoud Manaa?"
       }
     ]
   },
@@ -28,74 +28,74 @@
     "name": "Automation Tools",
     "questions": [
       {
-        "q": "This programming language is commonly used for network automation.",
+        "q": "This general-purpose language is widely used in network automation because of its libraries for APIs, data handling, and device connectivity.",
         "a": "What is Python?"
       },
       {
-        "q": "This tool automates configuration management using playbooks.",
+        "q": "This automation tool uses YAML playbooks and modules to configure devices and orchestrate repeatable IT tasks.",
         "a": "What is Ansible?"
       },
       {
-        "q": "This version control system tracks code changes.",
+        "q": "This distributed version control system records changes in files and supports branching, merging, and collaborative development.",
         "a": "What is Git?"
       },
       {
-        "q": "This repository hosting service is widely used for collaboration.",
+        "q": "This web-based Git hosting service supports repositories, pull requests, issue tracking, and team collaboration.",
         "a": "What is GitHub?"
       },
       {
-        "q": "This method allows systems to communicate programmatically.",
+        "q": "This software interface lets applications exchange requests and responses programmatically, often using HTTP and structured data formats.",
         "a": "What is an API?"
       }
     ]
   },
   {
-    "name": "Network Design",
+    "name": "Sports Legends",
     "questions": [
       {
-        "q": "This topology connects devices to a central device.",
-        "a": "What is a star topology?"
+        "q": "This basketball star was nicknamed 'His Airness' and won six NBA championships with the Chicago Bulls.",
+        "a": "Who is Michael Jordan?"
       },
       {
-        "q": "This design improves network reliability through redundancy.",
-        "a": "What is high availability?"
+        "q": "This tennis champion from Switzerland won 20 Grand Slam singles titles during his career.",
+        "a": "Who is Roger Federer?"
       },
       {
-        "q": "This model divides networks into core, distribution, and access layers.",
-        "a": "What is the hierarchical network model?"
+        "q": "This Jamaican sprinter set world records in the 100 metres and 200 metres and is known as the fastest man in the world.",
+        "a": "Who is Usain Bolt?"
       },
       {
-        "q": "This Cisco switching feature bundles multiple physical Ethernet links into one logical link to increase bandwidth and provide redundancy.",
-        "a": "What is EtherChannel or PortChannel?"
+        "q": "This footballer captained Argentina to victory at the 2022 FIFA World Cup.",
+        "a": "Who is Lionel Messi?"
       },
       {
-        "q": "This design principle minimizes the impact of failures.",
-        "a": "What is fault tolerance?"
+        "q": "This American gymnast won four gold medals at the 2016 Rio Olympics.",
+        "a": "Who is Simone Biles?"
       }
     ]
   },
   {
-    "name": "Cisco Certifications",
+    "name": "Famous Landmarks",
     "questions": [
       {
-        "q": "This certification is the first step in Cisco networking careers.",
-        "a": "What is CCST or CCNA?"
+        "q": "This ancient Roman amphitheatre is one of Italy's best-known landmarks.",
+        "a": "What is the Colosseum?"
       },
       {
-        "q": "This professtional level certification focuses on enterprise networking.",
-        "a": "What is CCNP Enterprise?"
+        "q": "This statue in New York Harbor was a gift from France to the United States.",
+        "a": "What is the Statue of Liberty?"
       },
       {
-        "q": "This certification is considered expert level.",
-        "a": "What is CCIE?"
+        "q": "This massive stone monument in Wiltshire, England, is arranged in a circular formation.",
+        "a": "What is Stonehenge?"
       },
       {
-        "q": "This Cisco Professional level certification focuses specifically on infrastructure security?",
-        "a": "What is CCNP Security?"
+        "q": "This white marble mausoleum in Agra, India, was commissioned by Shah Jahan.",
+        "a": "What is the Taj Mahal?"
       },
       {
-        "q": "This certification validates network programmability skills.",
-        "a": "What is Automation Certification Track?"
+        "q": "This famous clock tower structure beside the Houses of Parliament in London is commonly called Big Ben.",
+        "a": "What is the Elizabeth Tower (commonly called Big Ben)?"
       }
     ]
   }
