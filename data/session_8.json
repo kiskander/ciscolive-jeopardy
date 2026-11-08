@@ -50,27 +50,27 @@
     ]
   },
   {
-    "name": "VIPs Around the World",
+    "name": "Famous Firsts",
     "questions": [
       {
-        "q": "This VIP is a Network Security Architect living in Denmark and working with a provider serving the Nordic and Baltic regions.",
-        "a": "Who is Andreas Foerby?"
+        "q": "This woman became the first person to fly solo nonstop across the Atlantic Ocean.",
+        "a": "Who is Amelia Earhart?"
       },
       {
-        "q": "This VIP is a Network and Security Engineer living in Switzerland and has worked across five countries and several industries.",
-        "a": "Who is Bruno?"
+        "q": "This American astronaut became the first person to walk on the Moon in 1969.",
+        "a": "Who is Neil Armstrong?"
       },
       {
-        "q": "This VIP is a Network Engineer and Solutions Architect at a leading German IT service provider.",
-        "a": "Who is Christian Kellerer?"
+        "q": "This South African leader became the country's first Black president in 1994.",
+        "a": "Who is Nelson Mandela?"
       },
       {
-        "q": "This VIP is a Senior Network Architect based in Sweden and works at Conscia Netsafe.",
-        "a": "Who is Daniel Dib?"
+        "q": "This woman became the first female Prime Minister of the United Kingdom in 1979.",
+        "a": "Who is Margaret Thatcher?"
       },
       {
-        "q": "This VIP is a Systems Engineer based in Italy who specializes in campus and data center infrastructure.",
-        "a": "Who is Riccardo Nalesso?"
+        "q": "This Soviet cosmonaut became the first human to travel into outer space in 1961.",
+        "a": "Who is Yuri Gagarin?"
       }
     ]
   },

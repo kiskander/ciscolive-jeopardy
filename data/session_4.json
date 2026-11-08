@@ -1,26 +1,26 @@
 [
   {
-    "name": "First Steps into IT",
+    "name": "Sports Around the World",
     "questions": [
       {
-        "q": "This VIP started learning computers with BASIC and Pascal before working as a PC assembly technician and moving into networking.",
-        "a": "Who is Sergey?"
+        "q": "This sport uses a shuttlecock instead of a ball.",
+        "a": "What is badminton?"
       },
       {
-        "q": "This VIP's IT journey began with a mainframe project that sparked an interest in network engineering, followed by experience in Cisco's P-TAP program in São Paulo.",
-        "a": "Who is Kelly Pack?"
+        "q": "This annual tennis tournament is played on grass courts in London.",
+        "a": "What is Wimbledon?"
       },
       {
-        "q": "This VIP began working in networking after earning a degree in Economics and later moving through programming, database administration, and network administration roles.",
-        "a": "Who is Luny?"
+        "q": "This sport features a scrum, a try, and a conversion.",
+        "a": "What is rugby?"
       },
       {
-        "q": "This VIP began his professional career as a network engineer in 2015 and moved fully into network automation in 2021.",
-        "a": "Who is Mateusz?"
+        "q": "This international soccer tournament is held every four years and awards the FIFA World Cup trophy.",
+        "a": "What is the FIFA World Cup?"
       },
       {
-        "q": "This VIP started in IT as a web developer in 2010 and moved into networking in 2016.",
-        "a": "Who is Mahmoud Manaa?"
+        "q": "In this sport, competitors slide stones across ice toward a circular target while teammates sweep the ice.",
+        "a": "What is curling?"
       }
     ]
   },

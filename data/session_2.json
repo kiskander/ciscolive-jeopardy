@@ -50,27 +50,27 @@
     ]
   },
   {
-    "name": "VIP Journeys & Fun Facts",
+    "name": "Movie Villains",
     "questions": [
       {
-        "q": "This VIP began his IT journey with BASIC and Pascal programming before moving into networking and earning expert-level certifications.",
-        "a": "Who is Sergey?"
+        "q": "This Star Wars villain wears black armor, breathes through a mechanical mask, and is Luke Skywalker's father.",
+        "a": "Who is Darth Vader?"
       },
       {
-        "q": "This VIP enjoys technology, music, travel, red wine, scuba diving, and martial arts outside of work.",
-        "a": "Who is Elliot?"
+        "q": "This Disney villain wants to take the throne from Mufasa and is known for his dark mane.",
+        "a": "Who is Scar?"
       },
       {
-        "q": "This VIP's career path included work as a programmer, database manager, and network administrator before he focused on teaching networking and Networking Academy students.",
-        "a": "Who is Luny?"
+        "q": "This Batman villain is known for his purple suit, green hair, and chaotic sense of humor.",
+        "a": "Who is the Joker?"
       },
       {
-        "q": "This VIP is based in Singapore, works in technical design and solution sales engineering, and enjoys reading, studying, playing guitar, and exercising.",
-        "a": "Who is Slim?"
+        "q": "This Harry Potter villain is also known as He-Who-Must-Not-Be-Named.",
+        "a": "Who is Lord Voldemort?"
       },
       {
-        "q": "This VIP is known for sharing network playroom videos and online learning content, and actively answers networking questions in the community.",
-        "a": "Who is Riikka Sihvonen?"
+        "q": "This Marvel villain collects powerful stones in an attempt to eliminate half of all life in the universe.",
+        "a": "Who is Thanos?"
       }
     ]
   },

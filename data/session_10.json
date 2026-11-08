@@ -50,27 +50,27 @@
     ]
   },
   {
-    "name": "Career Plot Twists",
+    "name": "Legendary Rock Bands",
     "questions": [
       {
-        "q": "This VIP began his IT career after taking a summer job installing network cabling while pursuing a graduate degree in Economics.",
-        "a": "Who is Bill Burnam?"
+        "q": "This British rock band featured Freddie Mercury as its lead singer.",
+        "a": "Who is Queen?"
       },
       {
-        "q": "This VIP moved from a career in criminal defense law and worker advocacy into engineering around 2015–2016.",
-        "a": "Who is Micheline?"
+        "q": "This American rock band released the album “Hotel California” in 1976.",
+        "a": "Who are the Eagles?"
       },
       {
-        "q": "This VIP first worked as a programmer, database manager, and network administrator before dedicating time to teaching networking and Networking Academy students.",
-        "a": "Who is Luny?"
+        "q": "This Irish rock band is known for songs like “With or Without You” and “Beautiful Day.”",
+        "a": "Who is U2?"
       },
       {
-        "q": "This VIP transitioned from web development into networking in 2016, later earning CCIE Enterprise Infrastructure in 2024.",
-        "a": "Who is Mahmoud Manaa?"
+        "q": "This Australian rock band is known for the songs “Highway to Hell” and “Back in Black.”",
+        "a": "Who is AC/DC?"
       },
       {
-        "q": "This VIP discovered a passion for networking after helping an understaffed network manager while working at Orange UK.",
-        "a": "Who is Jonathan, the 2024–2026 VIP whose profile describes his move from Orange UK's support roles into networking?"
+        "q": "This British band released “Stairway to Heaven” and “Whole Lotta Love.”",
+        "a": "Who is Led Zeppelin?"
       }
     ]
   },

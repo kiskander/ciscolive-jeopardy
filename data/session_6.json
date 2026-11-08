@@ -1,26 +1,26 @@
 [
   {
-    "name": "Milestones & Recognition",
+    "name": "Sitcom Showdown",
     "questions": [
       {
-        "q": "This VIP was the first person from Peru to receive Cisco Learning Network VIP recognition, in 2019.",
-        "a": "Who is Percy Luis Venturo Huares?"
+        "q": "This sitcom features six friends who regularly hang out at Central Perk in New York City.",
+        "a": "What is Friends?"
       },
       {
-        "q": "This VIP earned CCIE Enterprise Infrastructure at age 21 after starting with CCNA materials through an Italian Cisco Academy.",
-        "a": "Who is Riccardo Nalesso?"
+        "q": "This television family includes Homer, Marge, Bart, Lisa, and Maggie.",
+        "a": "What is The Simpsons?"
       },
       {
-        "q": "This VIP received the Cisco Learning Network Spotlight Technical Excellence Award and was recognized as a CLN Ambassador.",
-        "a": "Who is Elvis Chong?"
+        "q": "In this sitcom, Michael Scott manages a paper company branch in Scranton, Pennsylvania.",
+        "a": "What is The Office?"
       },
       {
-        "q": "This VIP received the Cisco Community Spotlight Technical Excellence Award in 2019 and the Cisco Instructor Excellence Award in 2020.",
-        "a": "Who is Yasser Auda?"
+        "q": "This comedy follows a group of scientists and their neighbor Penny.",
+        "a": "What is The Big Bang Theory?"
       },
       {
-        "q": "This VIP has been recognized as a Cisco Learning Network VIP continuously from 2021 through 2026 and is known for networking books, videos, and courses.",
-        "a": "Who is Wendell Odom?"
+        "q": "This sitcom features a bar in Boston where everybody knows your name.",
+        "a": "What is Cheers?"
       }
     ]
   },

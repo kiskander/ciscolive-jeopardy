@@ -1,26 +1,26 @@
 [
   {
-    "name": "Meet the 2026 VIPs",
+    "name": "Weird but True",
     "questions": [
       {
-        "q": "This Denmark-based network security architect holds the CCIE Security certification and encourages engineers to build home labs and learn by doing.",
-        "a": "Who is Andreas Foerby?"
+        "q": "This animal has three hearts and blue blood.",
+        "a": "What is an octopus?"
       },
       {
-        "q": "This Network and Security Engineer focuses on Cisco enterprise networking, Cisco ISE, Secure Firewall, VPN architectures, and network automation.",
-        "a": "Who is Brahim?"
+        "q": "This planet takes longer to rotate once on its axis than it takes to orbit the Sun.",
+        "a": "What is Venus?"
       },
       {
-        "q": "This Network Engineer and Solutions Architect is active in the Cisco Learning Network's CCNA, Enterprise, Cisco Modeling Labs, and recertification communities.",
-        "a": "Who is Christian Kellerer?"
+        "q": "This flightless Australian mammal is known for producing cube-shaped droppings.",
+        "a": "What is a wombat?"
       },
       {
-        "q": "This 2026 VIP is a Technology Architect for Network Automation at DSV A/S and holds the CCIE Automation certification.",
-        "a": "Who is Mateusz?"
+        "q": "Despite its name, this fruit is botanically classified as a berry.",
+        "a": "What is a banana?"
       },
       {
-        "q": "This Senior Network Engineer and Network Architect based in Italy holds the CCIE Enterprise Infrastructure certification and shares advice on troubleshooting and certification paths.",
-        "a": "Who is Simone Musmeci?"
+        "q": "This sea creature has existed for hundreds of millions of years and has blue blood used in medical testing.",
+        "a": "What is a horseshoe crab?"
       }
     ]
   },

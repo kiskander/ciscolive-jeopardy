@@ -50,27 +50,27 @@
     ]
   },
   {
-    "name": "VIP Expertise",
+    "name": "Travel Bucket List",
     "questions": [
       {
-        "q": "This long-time networking educator writes books, creates videos, and teaches courses about computer networking.",
-        "a": "Who is Wendell Odom?"
+        "q": "This Italian city is famous for its canals, gondolas, and annual Carnival.",
+        "a": "What is Venice?"
       },
       {
-        "q": "This VIP has CCIE and CCDE credentials and works on scalable, modular, highly available network designs.",
-        "a": "Who is Daniel Dib?"
+        "q": "This South American landmark is an ancient Incan citadel located high in the Andes.",
+        "a": "What is Machu Picchu?"
       },
       {
-        "q": "This network specialist focuses on Cisco routing and switching and contributes answers, technical conversations, and learning content to the community.",
-        "a": "Who is Riikka Sihvonen?"
+        "q": "This Japanese mountain is famous for its symmetrical volcanic shape and snowy peak.",
+        "a": "What is Mount Fuji?"
       },
       {
-        "q": "This VIP has extensive experience in Cisco security, including Cisco ISE, Secure Firewall, VPN architectures, and identity-driven security models.",
-        "a": "Who is Brahim?"
+        "q": "This French landmark was originally built as the entrance arch for the 1889 World's Fair.",
+        "a": "What is the Eiffel Tower?"
       },
       {
-        "q": "This VIP's areas of expertise include enterprise infrastructure, campus and data center design, and customer-focused systems engineering.",
-        "a": "Who is Riccardo Nalesso?"
+        "q": "This Australian natural wonder is the world's largest coral reef system.",
+        "a": "What is the Great Barrier Reef?"
       }
     ]
   },
